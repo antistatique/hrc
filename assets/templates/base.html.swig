@@ -31,6 +31,20 @@
       })(document);
     </script>
 
+    {# Google Fonts script #}
+    <script type="text/javascript">
+      WebFontConfig = {
+        google: { families: [ 'Lato:300,700,300italic,700italic:latin' ] }
+      };
+      (function() {
+        var wf = document.createElement('script');
+        wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+      })();</script>
+
     <!--[if lt IE 9]>
       <script src="/build/js/polyfills.min.js"></script>
     <![endif]-->

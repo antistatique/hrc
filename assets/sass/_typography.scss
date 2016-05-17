@@ -2,6 +2,7 @@
 
 html {
   font-size: $base;
+  font-weight: 300;
 
   @media screen and (max-width: $screen-sm-max) {
     font-size: floor(($base * 0.9));

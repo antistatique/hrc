@@ -43,7 +43,7 @@ $link-hover-decoration: underline !default;
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:  "ff-meta-web-pro", Helvetica, Arial, sans-serif !default;
+$font-family-sans-serif:  "Lato", Helvetica, Arial, sans-serif !default;
 $font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
@@ -53,12 +53,12 @@ $font-size-base:          1em !default;
 $font-size-large:         1.25em !default;
 $font-size-small:         0.875em !default;
 
-$font-size-h1:            3.75em !default;
-$font-size-h2:            1.75em !default;
-$font-size-h3:            1.25em !default;
-$font-size-h4:            $font-size-base !default;
-$font-size-h5:            $font-size-base !default;
-$font-size-h6:            0.85em !default;
+$font-size-h1:            5em !default;
+$font-size-h2:            3.625em !default;
+$font-size-h3:            2.25em !default;
+$font-size-h4:            1.75em !default;
+$font-size-h5:            1.25em !default;
+$font-size-h6:            $font-size-base!default;
 
 //** Unit-less `line-height` for use in components like buttons.
 $line-height-base:        $gr * $font-size-base !default; // 20/14
@@ -66,8 +66,8 @@ $line-height-base:        $gr * $font-size-base !default; // 20/14
 $line-height-computed:    $line-height-base !default; // ~1.25em
 
 //** By default, this inherits from the `<body>`.
-$headings-font-family:    inherit !default;
-$headings-font-weight:    700 !default;
+$headings-font-family:    "ff-meta-web-pro", Helvetica, Arial, sans-serif !default;
+$headings-font-weight:    400 !default;
 $headings-line-height:    0.9 !default;
 $headings-color:          inherit !default;
 
