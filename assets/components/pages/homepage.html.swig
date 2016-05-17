@@ -5,5 +5,5 @@ styleguide: false
 layout: page.html.swig
 ---
 <div class="container">
-<h1>hello HRC !</h1>
+  <h1>Hello HRC !</h1>
 </div>
