@@ -1,5 +1,5 @@
 # config valid only for Capistrano 3.1
-lock '3.2.1'
+lock '3.4.0'
 
 set :user, 'hrc'
 set :host, 'antistatique.alwaysdata.net'
@@ -21,5 +21,12 @@ set :log_level, :info
 
 set :keep_releases, 5
 
-
+require 'json'
+namespace :build do
+  task :send do
+    system "scp -r build #{fetch(:user)}@#{fetch(:host)}:#{current_path}/"
+    system "scp -r public #{fetch(:user)}@#{fetch(:host)}:#{current_path}/"
+  end
+end
+after "deploy", "build:send"
 
