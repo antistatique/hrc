@@ -6,7 +6,7 @@
   <ul>
 
     <li>
-      <a href="/index.html" class="styleguide-menu-heading">Styleguide</a>
+      <a href="/styleguide/" class="styleguide-menu-heading">Styleguide</a>
     </li>
 
     <li>
@@ -14,40 +14,40 @@
       <ul>
         {% for doc in collections.docs %}
           <li>
-            <a href="/{{doc.title}}">{{doc.title}}</a>
+            <a href="/styleguide/{{doc.title}}">{{doc.title}}</a>
           </li>
         {% endfor %}
       </ul>
     </li>
 
     <li>
-      <a href="/atoms/" class="styleguide-menu-heading">Atoms</a>
+      <a href="/styleguide/atoms/" class="styleguide-menu-heading">Atoms</a>
       <ul>
         {% for atom in collections.atoms %}
           <li>
-            <a href="/atoms/#atom{{loop.index}}">{{atom.title}}</a>
+            <a href="/styleguide/atoms/#atom{{loop.index}}">{{atom.title}}</a>
           </li>
         {% endfor %}
       </ul>
     </li>
 
     <li>
-      <a href="/molecules/" class="styleguide-menu-heading">Molecules</a>
+      <a href="/styleguide/molecules/" class="styleguide-menu-heading">Molecules</a>
       <ul>
         {% for molecule in collections.molecules %}
           <li>
-            <a href="/molecules/#molecule{{loop.index}}">{{molecule.title}}</a>
+            <a href="/styleguide/molecules/#molecule{{loop.index}}">{{molecule.title}}</a>
           </li>
         {% endfor %}
       </ul>
     </li>
 
     <li>
-      <a href="/organisms/" class="styleguide-menu-heading">Organisms</a>
+      <a href="/styleguide/organisms/" class="styleguide-menu-heading">Organisms</a>
       <ul>
         {% for organism in collections.organisms %}
           <li>
-            <a href="/organisms/#organism{{loop.index}}">{{organism.title}}</a>
+            <a href="/styleguide/organisms/#organism{{loop.index}}">{{organism.title}}</a>
           </li>
         {% endfor %}
       </ul>

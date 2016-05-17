@@ -1,8 +1,8 @@
 {
   "app": {
     "env": "dev",
-    "basedir": "styleguide",
-    "ghpages": "styleguide"
+    "basedir": "public",
+    "ghpages": "public"
   },
   "vendors": {
     "css": [
@@ -45,13 +45,25 @@
   "browsers": ["last 2 versions", "safari 5", "ie 8", "ie 9", "ff 27", "opera 12.1"],
   "metalsmith": {
     "assets": "node_modules/toolbox-utils/styleguide/",
-    "dist": "styleguide/",
+    "dist": "public/",
     "plugins": {
       "permalinks": {
         "pattern": ":title",
         "linksets": [{
+          "match": { "collection": "components" },
+          "pattern": "styleguide/:title"
+        },{
+          "match": { "collection": "docs" },
+          "pattern": "styleguide/:title"
+        },{
           "match": { "collection": "pages" },
           "pattern": ":title"
+        },{
+          "match": { "styleguide_home": true },
+          "pattern": "styleguide/"
+        },{
+          "match": { "global_home": true },
+          "pattern": "./"
         }]
       },
       "collections": {
@@ -68,6 +80,10 @@
           "reverse": false
         },
         "pages": {
+          "sortBy": "title",
+          "reverse": false
+        },
+        "components": {
           "sortBy": "title",
           "reverse": false
         },

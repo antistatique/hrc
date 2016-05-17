@@ -1,6 +1,6 @@
 ---
-title: Overview
+title: Styleguide
 styleguide: true
-permalink: false
+styleguide_home: true
 layout: overview.html.swig
 ---
