@@ -16,12 +16,14 @@ var path          = require('path'),
     collections   = require('metalsmith-collections');
 
 var metadatas = [];
-dotenv.load();
 require('./filters.js')();
 
-var contentful_key = '';
 if (process.env.CONTENTFUL_KEY) {
-  contentful_key = process.env.CONTENTFUL_KEY;
+  dotenv.load();
+  var contentful_key = '';
+  if (process.env.CONTENTFUL_KEY) {
+    contentful_key = process.env.CONTENTFUL_KEY;
+  }
 }
 
 module.exports = function() {
