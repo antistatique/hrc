@@ -18,9 +18,12 @@ var path          = require('path'),
 var metadatas = [];
 require('./filters.js')();
 
+var contentful_key = '';
+
 if (process.env.CONTENTFUL_KEY) {
+  contentful_key = process.env.CONTENTFUL_KEY;
+} else {
   dotenv.load();
-  var contentful_key = '';
   if (process.env.CONTENTFUL_KEY) {
     contentful_key = process.env.CONTENTFUL_KEY;
   }
