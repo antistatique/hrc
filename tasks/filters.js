@@ -9,6 +9,10 @@ module.exports = function() {
     return marked(string);
   });
 
+  swig.setFilter('slug', function (string) {
+    return string.toLowerCase();
+  });
+
   swig.setFilter('dump', function (input) {
     return JSON.stringify(input, null, 2);
   });

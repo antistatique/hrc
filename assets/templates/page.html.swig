@@ -1,6 +1,7 @@
 {% extends "base.html.swig" %}
 
 {% block content %}
+  {% set slug = title|slug %}
   {% set path = '../components/pages/' + title + '.html.swig' %}
   <div id="page-wrapper">
     {% include path %}
