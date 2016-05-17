@@ -1,5 +1,6 @@
 ---
 title: Homepage
+name: homepage
 global_home: true
 styleguide: false
 layout: page.html.swig

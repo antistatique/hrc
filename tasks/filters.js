@@ -9,8 +9,9 @@ module.exports = function() {
     return marked(string);
   });
 
-  swig.setFilter('slug', function (string) {
-    return string.toLowerCase();
+  swig.setFilter('slug', function (path) {
+    var splited = path.split('/');
+    return splited[splited.length-1];
   });
 
   swig.setFilter('dump', function (input) {

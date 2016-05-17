@@ -1,6 +1,5 @@
 {% macro default(type, content) %}
-  {% set slug = content.title|slug %}
-  {% set path = '../../components/' + type + 's/' + slug + '.html.swig' %}
+  {% set path = '../../components/' + type + 's/' + content.name + '.html.swig' %}
 
   {% if content.notes %}<div class="styleguide-item-notes" data-styleguide-toggle="notes">
     {{content.notes|markdown|raw}}
