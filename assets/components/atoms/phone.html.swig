@@ -7,4 +7,7 @@ notes: |
   ##### Options :
   - **option** - Type
 ---
-<h5>hello</h5>
+<a href="tel:021-473-17-31" class="phone">
+  <i class="icon icon-phone"></i>
+  021 473 17 31
+</a>

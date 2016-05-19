@@ -1,1 +1,37 @@
 @charset 'UTF-8';
+
+.phone {
+  display: inline-block;
+  padding: 0.3em 1.6em 0.4em 0.7em;
+  background: $alto;
+  border-radius: 3em;
+  color: $blue-zodiac;
+  overflow: hidden;
+
+  .icon {
+    position: relative;
+    left: -0.7em;
+    padding: 0.5em 0.9em 0.55em;
+    background: $cerulean;
+    border-radius: 50em;
+    color: $white;
+    transition: background 0.3s;
+
+    &:before {
+      position: relative;
+      top: 0.15em;
+      transition: transform 0.3s;
+    }
+  }
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    color: $blue-zodiac;
+
+    .icon {
+      background: $blue-chill;
+      &:before { transform: rotate(45deg); }
+    }
+  }
+}

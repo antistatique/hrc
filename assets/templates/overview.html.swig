@@ -17,6 +17,13 @@
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sin laboramus, quis est, qui alienae modum statuat industriae? Nummus in Croesi divitiis obscuratur, pars est tamen divitiarum. Praeteritis, inquit, gaudeo. Vide, quantum, inquam, fallare, Torquate. Duo Reges: constructio interrete. Minime vero, inquit ille, consentit. Quod quidem nobis non saepe contingit.
       </p>
+
+      <div class="spacer spacer-sm"></div>
+
+      <i class="icon icon-cross"></i> <code>icon-cross</code>
+      <i class="icon icon-envelope"></i> <code>icon-envelope</code>
+      <i class="icon icon-phone"></i> <code>icon-phone</code>
+      <i class="icon icon-search"></i> <code>icon-search</code>
     </div>
     <div class="col-sm-4">
       <h3>Primary colors</h3>
