@@ -17,5 +17,5 @@ notes: |
       My button
     {% endif %}
   {% endspaceless %}
-  <span class="chevron pull-right"></span>
+  {% include '../atoms/chevron.html.swig' with {direction: 'right', classes: 'pull-right'} %}
 </a>
