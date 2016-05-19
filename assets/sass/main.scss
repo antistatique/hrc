@@ -8,6 +8,7 @@
 @import 'typography';
 
 // atoms:
+@import 'atoms/image';
 @import 'atoms/button-emergency';
 @import 'atoms/block-link';
 @import 'atoms/chevron';
@@ -16,6 +17,7 @@
 @import 'atoms/button';
 
 // molecules:
+@import 'molecules/hospital-teaser';
 @import 'molecules/cover';
 @import 'molecules/navbar';
 @import 'molecules/search';
