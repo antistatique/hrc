@@ -4,7 +4,15 @@
   text-transform: uppercase;
   transition: background 0.3s;
   &.btn-lg { font-size: 1em; }
-  &.btn-primary:hover { background: $blue-chill; }
-  &.btn-success:hover { background: $citron; }
+
+  &.btn-primary:hover,
+  &.btn-primary:focus { background: $blue-chill; }
+
+  &.btn-success:hover,
+  &.btn-success:focus { background: $citron; }
+
+  &.btn-warning:hover,
+  &.btn-warning:focus { background: $copper; }
+
   &.btn-block { text-align: left; }
 }

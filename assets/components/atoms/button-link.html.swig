@@ -6,10 +6,10 @@ notes: |
   ##### Usage : `button-link`
   ##### Options :
   - **label** - String
-  - **chevron** - Boolean
+  - **url** - String
 ---
 {% set chevron = true %}
-<a href="#" class="btn btn-lg btn-block btn-primary">
+<a href="{% if url %}{{url}}{% else %}#{% endif %}" class="btn btn-lg btn-block btn-primary">
   {% spaceless %}
     {% if label %}
       {{label}}

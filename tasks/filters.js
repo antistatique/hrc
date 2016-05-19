@@ -14,6 +14,11 @@ module.exports = function() {
     return splited[splited.length-1];
   });
 
+  swig.setFilter('spaceToDash', function (string) {
+    return string.split(' ').join('-');
+  });
+
+
   swig.setFilter('dump', function (input) {
     return JSON.stringify(input, null, 2);
   });

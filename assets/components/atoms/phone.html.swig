@@ -5,9 +5,9 @@ collection: atoms
 notes: |
   ##### Usage : `phone`
   ##### Options :
-  - **option** - Type
+  - **number** - String (ex: `021 473 17 31`)
 ---
-<a href="tel:021-473-17-31" class="phone">
+<a href="tel:{% if number %}{{number|spaceToDash}}{% else %}021-473-17-31{% endif %}" class="phone">
   <i class="icon icon-phone"></i>
-  021 473 17 31
+  {% if number %}{{number}}{% else %}021 473 17 31{% endif %}
 </a>

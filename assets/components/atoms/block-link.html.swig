@@ -6,8 +6,9 @@ notes: |
   ##### Usage : `block-link`
   ##### Options :
   - **label** - String
+  - **url** - String
 ---
-<a href="#" class="block-link">
+<a href="{% if url %}{{url}}{% else %}#{% endif %}" class="block-link">
   {% spaceless %}
     {% if label %}
       {{label}}
