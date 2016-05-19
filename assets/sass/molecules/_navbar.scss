@@ -1,0 +1,21 @@
+@charset 'UTF-8';
+
+.navbar {
+  font-size: 1.125em;
+  font-family: $headings-font-family;
+  text-transform: uppercase;
+
+  .dropdown-menu {
+    text-transform: none;
+    font-size: 0.88em;
+
+    a {
+      color: $cerulean;
+
+      &:hover { background: transparent; }
+    }
+
+    li.active a:hover { color: $blue-zodiac; }
+    li.active a { background: transparent; }
+  }
+}
