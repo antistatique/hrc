@@ -16,9 +16,9 @@ contentful:
 
 <div class="spacer spacer-sm"></div>
 
-<div class="row">
-  <div class="col-sm-6">
-
+<div class="row row-flex row-flex-end">
+  <div class="col-sm-6 theme-success">
+    {{content.futureSite|markdown|raw}}
   </div>
   <div class="col-sm-6">
     <h3 class="text-primary">{{content.sitesTitle}}</h3>
@@ -38,14 +38,3 @@ contentful:
 </div>
 
 <div class="spacer spacer-xl"></div>
-
-{# {
-  "title": "Vevey Samaritain",
-  "location": {
-    "lon": 6.854549499999962,
-    "lat": 46.4609956
-  },
-  "phone": 219234000,
-  "visitingHours": "13h00 > 20h00 chambres communes\n10h00 > 20h00 chambres privées et semi-privées\n(sauf maternité: époux visite libre)",
-  "servicesList": "- Urgences médecine interne\n- Urgences gynécologiques et obstétricales\n- Urgences médico-chirurgicales de pédiatrie\n- Médecine et ses spécialités :\n  - Cardiologie\n  - Diabétologie\n  - Gastroentérologie\n  - Neurologie\n  - Pneumologie \n- Soins intensifs de médecine\n- Pédiatrie (jusqu’à 16 ans)\n- Gynécologie, obstétrique\n- Chirurgie plastique et reconstructive\n- ORL\n- Diététique\n- Physiothérapie/Ergothérapie\n- Consultations ambulatoires"
-} #}

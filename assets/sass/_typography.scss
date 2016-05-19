@@ -28,6 +28,18 @@ h6,
   line-height: 1.1em;
 }
 
+h2,
+.h2 {
+  margin: 0.1em 0;
+  line-height: 1.1em;
+
+  & + h3,
+  & + .h3 {
+    margin-top: 0.1em;
+    line-height: 1.1em;
+  }
+}
+
 a {
   transition: color 0.3s;
   &:hover { text-decoration: none; }
