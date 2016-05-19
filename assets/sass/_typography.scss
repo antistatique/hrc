@@ -28,4 +28,9 @@ h6,
   line-height: 1.1em;
 }
 
+a {
+  transition: color 0.3s;
+  &:hover { text-decoration: none; }
+}
+
 pre { font-size: 1em; }
