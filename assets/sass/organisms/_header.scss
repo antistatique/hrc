@@ -5,5 +5,14 @@ header {
 
   .nav a {
     color: $blue-zodiac;
+
+    &:hover {
+      background: transparent;
+      color: $cerulean;
+    }
+  }
+
+  .navbar {
+    margin-top: -3.1em;
   }
 }

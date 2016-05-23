@@ -16,7 +16,7 @@ notes: |
           <li><a href="#">Emplois</a></li>
         </ul>
       </div>
-      {% include '../molecules/navbar.html.swig' %}
     </div>
   </div>
+ {% include '../molecules/navbar.html.swig' %}
 </header>

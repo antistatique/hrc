@@ -17,4 +17,9 @@
   bottom: 2em;
   left: 2.5em;
   max-width: 50%;
+
+  @media screen and (max-width: $screen-xs-max) {
+    position: static;
+    max-width: 100%;
+  }
 }

@@ -17,16 +17,21 @@ notes: |
 
   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="nav navbar-nav navbar-right">
-      <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-      <li><a href="#">Link</a></li>
+      <li{% if name == 'homepage' %} class="active"{% endif %}><a href="/">Accueil</a></li>
       <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hôpital {% include '../atoms/chevron.html.swig' with {direction: 'down'} %}</a>
         <ul class="dropdown-menu">
-          <li class="active"><a href="#">Action</a></li>
-          <li><a href="#">Action</a></li>
           <li><a href="#">Action</a></li>
         </ul>
       </li>
+      <li><a href="#">Services médicaux</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Patients et proches {% include '../atoms/chevron.html.swig' with {direction: 'down'} %}</a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Action</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Contact</a></li>
     </ul>
   </div>
 </nav>

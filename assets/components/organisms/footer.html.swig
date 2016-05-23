@@ -9,7 +9,7 @@ notes: |
   <div class="container">
     <div class="row">
       {% for site in data.hospitals %}
-        <div class="col-sm-4 col-lg-2">
+        <div class="col-xs-6 col-sm-4 col-lg-2">
           {% include '../molecules/hospital-teaser.html.swig' with {content: site} %}
         </div>
       {% endfor %}
