@@ -6,6 +6,7 @@
     {% include '../components/organisms/header.html.swig' %}
     {% include path %}
   </div>
+  {% include '../components/organisms/footer.html.swig' %}
 {% endblock %}
 
 {% block javascripts %}

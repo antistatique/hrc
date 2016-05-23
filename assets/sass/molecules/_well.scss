@@ -1,0 +1,21 @@
+@charset 'UTF-8';
+
+.well {
+  padding: 2em 10%;
+  color: $white;
+
+  &.well-up {
+    position: relative;
+    margin-top: -3em;
+  }
+
+  p {
+    margin-bottom: 1em;
+    font-size: $font-size-large;
+    font-family: $headings-font-family;
+  }
+
+  small {
+    line-height: 0.5em;
+  }
+}

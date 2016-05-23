@@ -19,12 +19,15 @@
 @import 'atoms/button';
 
 // molecules:
+@import 'molecules/well';
+@import 'molecules/large-teaser';
 @import 'molecules/hospital-teaser';
 @import 'molecules/cover';
 @import 'molecules/navbar';
 @import 'molecules/search';
 
 // organisms:
+@import 'organisms/footer';
 @import 'organisms/header';
 
 // pages:

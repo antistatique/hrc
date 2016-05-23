@@ -9,6 +9,6 @@ notes: |
 ---
 {% include '../atoms/block-link.html.swig' with {label: content.title, url: content.title|titleToUrl} %}
 <p>
-  {% if content.desc %}{{content.desc}}{% else %}Lorem ipsum dolor sit amet, consectetur adipiscing elit.{% endif %}
+  {% if content.desc %}{{content.desc}}{% elseif content.urgence %}{{content.urgence}}{% endif %}
 </p>
 {% include '../atoms/phone.html.swig' with {number: content.phone} %}

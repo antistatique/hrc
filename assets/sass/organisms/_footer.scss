@@ -1,0 +1,35 @@
+@charset 'UTF-8';
+
+footer {
+  margin-top: $grid-gutter-width;
+  background: $alto;
+
+  .row {
+    padding-top: 1em;
+    padding-bottom: 1.3em;
+  }
+
+  .phone { background: $white; }
+
+  .block-link {
+    border-bottom: 0;
+    .chevron { display: none; }
+  }
+}
+
+.sign-bar {
+  padding: 0.5em 0;
+  background: $blue-zodiac;
+  font-size: $font-size-small;
+  font-weight: 400;
+  color: $white;
+
+  a {
+    color: $antistatique;
+
+    &:hover {
+      color: $antistatique;
+      text-decoration: underline;
+    }
+  }
+}

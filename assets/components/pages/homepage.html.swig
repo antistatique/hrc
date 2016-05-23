@@ -37,4 +37,21 @@ contentful:
   </div>
 </div>
 
-<div class="spacer spacer-xl"></div>
+<div class="spacer spacer-sm"></div>
+
+<div class="row">
+  {% include '../molecules/large-teaser.html.swig' with {
+    url: 'somepage.html',
+    label: 'En savoir plus sur le nouvel hôpital',
+    theme: 'success'
+  } %}
+</div>
+
+<div class="row">
+  <div class="col-sm-10 col-sm-offset-1">
+    {% include '../molecules/well.html.swig' with {
+      up: true,
+      content: content.quote
+    } %}
+  </div>
+</div>

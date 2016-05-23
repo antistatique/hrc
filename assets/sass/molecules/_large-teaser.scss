@@ -1,0 +1,17 @@
+@charset 'UTF-8';
+
+.large-teaser {
+  position: relative;
+
+  .container {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .btn-block {
+    display: inline-block;
+    width: auto;
+    min-width: 20%;
+  }
+}
