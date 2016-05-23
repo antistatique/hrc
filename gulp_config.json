@@ -57,7 +57,7 @@
           "pattern": "styleguide/:title"
         },{
           "match": { "collection": "pages" },
-          "pattern": ":title"
+          "pattern": ":name"
         },{
           "match": { "styleguide_home": true },
           "pattern": "styleguide/"

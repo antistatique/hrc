@@ -12,7 +12,11 @@ contentful:
 {% set object = contentful.contentTypes[contentful.content_type]|get(contentful.id) %}
 {% set content = object.data.fields %}
 
-{% include '../molecules/cover.html.swig' with {heading: content.coverTitle, desc: content.coverDesc} %}
+{% include '../molecules/cover.html.swig' with {
+  heading: content.coverTitle,
+  desc: content.coverDesc,
+  emergency: true
+} %}
 
 <div class="spacer spacer-sm"></div>
 

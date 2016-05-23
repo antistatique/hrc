@@ -1,0 +1,16 @@
+@charset 'UTF-8';
+
+.breadcrumb {
+  display: inline-block;
+  padding-left: 0;
+  padding-right: 0;
+  border-bottom: 1px solid $cerulean;
+  font-size: $font-size-small;
+  font-family: $headings-font-family;
+  text-transform: uppercase;
+
+  li + li:before {
+    padding-right: 0;
+    font-size: 1.4em;
+  }
+}

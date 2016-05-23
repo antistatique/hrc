@@ -24,7 +24,7 @@ notes: |
           <li><a href="#">Action</a></li>
         </ul>
       </li>
-      <li><a href="#">Services médicaux</a></li>
+      <li{% if name == 'services-medicaux' %} class="active"{% endif %}><a href="/services-medicaux">Services médicaux</a></li>
       <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Patients et proches {% include '../atoms/chevron.html.swig' with {direction: 'down'} %}</a>
         <ul class="dropdown-menu">

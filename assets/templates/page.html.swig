@@ -4,7 +4,9 @@
   {% set path = '../components/pages/' + name + '.html.swig' %}
   <div class="container">
     {% include '../components/organisms/header.html.swig' %}
-    {% include path %}
+    {% block page_content %}
+      {% include path %}
+    {% endblock %}
   </div>
   {% include '../components/organisms/footer.html.swig' %}
 {% endblock %}

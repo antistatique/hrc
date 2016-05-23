@@ -11,7 +11,9 @@ notes: |
   - **emergency** - Boolean
 ---
 <div class="cover">
-  {% include '../atoms/button-emergency.html.swig'%}
+  {% if emergency %}
+    {% include '../atoms/button-emergency.html.swig'%}
+  {% endif %}
 
   <img
     src="{% if src %}{{src}}{% else %}https://unsplash.it/1200/600?image=949{% endif %}"

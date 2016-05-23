@@ -19,6 +19,8 @@
 @import 'atoms/button';
 
 // molecules:
+@import 'molecules/doctor-teaser';
+@import 'molecules/breadcrumb';
 @import 'molecules/well';
 @import 'molecules/large-teaser';
 @import 'molecules/hospital-teaser';
@@ -31,4 +33,5 @@
 @import 'organisms/header';
 
 // pages:
+@import 'pages/services-medicaux';
 @import 'pages/homepage';

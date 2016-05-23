@@ -1,7 +1,8 @@
 'use strict';
 
 var swig          = require('swig'),
-    marked        = require('marked');
+    marked        = require('marked'),
+    slug          = require('slug');
 
 module.exports = function() {
 
@@ -25,7 +26,7 @@ module.exports = function() {
   });
 
   swig.setFilter('titleToUrl', function (string) {
-    return string.split(' ').join('-').toLowerCase();
+    return slug(string).split(' ').join('-').toLowerCase();
   });
 
   swig.setFilter('dump', function (input) {
@@ -36,7 +37,7 @@ module.exports = function() {
     var obj = {};
     if (array) {
       for (var i = 0; i < array.length; i++) {
-        if (array[i].data.sys.id == value) {
+        if (array[i].id == value) {
           obj = array[i];
         }
       }
