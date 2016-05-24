@@ -6,16 +6,17 @@ notes: |
   ##### Usage : `hospital-item`
   ##### Options :
   - **content** - Object (`{title, phone, desc,...}`)
+  - **nothumb** - Boolean
 ---
 <div class="hospital-item">
   <div class="row row-flex">
-    {% if content.coverImage.fields.file.url %}
+    {% if content.coverImage.fields.file.url and not nothumb %}
     <div class="col-sm-4 img-focus" style="background-image: url('{{content.coverImage.fields.file.url}}');">
         <img src="{{content.coverImage.fields.file.url}}" alt="{{content.title}}" class="img-responsive sr-only">
     </div>
     <div class="col-sm-8">
     {% else %}
-    <div class="col-sm-8 col-sm-offset-4">
+    <div class="{% if nothumb %}col-sm-12{% else %}col-sm-8 col-sm-offset-4{% endif %}">
     {% endif %}
       {% include '../atoms/block-link.html.swig' with {label: content.title, url: content.title|titleToUrl} %}
       <div class="spacer spacer-xs"></div>

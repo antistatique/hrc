@@ -60,8 +60,8 @@ notes: |
           </li>
         </ul>
       </li>
-      <li>
-        <a href="#">Contact</a>
+      <li {% if name == 'contact' %} class="active"{% endif %}>
+        <a href="/contact">Contact</a>
       </li>
     </ul>
   </div>
