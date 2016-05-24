@@ -26,6 +26,8 @@ h6,
 .h6 {
   margin: 0.4em 0;
   line-height: 1.1em;
+
+  &.no-margin { margin: 0; }
 }
 
 h2,
@@ -50,3 +52,62 @@ p {
 }
 
 pre { font-size: 1em; }
+
+.icon-circle {
+  display: inline-block;
+  position: relative;
+  width: 2.5em;
+  margin-right: 0.3em;
+  padding: 0.5em;
+  border: 1px solid $brand-primary;
+  border-radius: 50em;
+  font-size: 0.9em;
+
+  &.icon-clock {
+    top: -0.3em;
+    width: 1.65em;
+    padding: 0.28em;
+    font-size: 1.3em;
+  }
+}
+
+.content ul {
+  padding-left: 1em;
+
+  li {
+    position: relative;
+    list-style-type: none;
+
+    &:before {
+      content: '\00a0';
+      display: inline-block;
+      position: absolute;
+      top: 0.6em;
+      right: 100%;
+      width: 7px;
+      height: 7px;
+      margin-right: 0.5em;
+      border-style: solid;
+      border-color: $cerulean;
+      border-width: 2px 2px 0 0;
+      transform: rotate(45deg);
+    }
+  }
+
+  ul li:before {
+    content: '\2012';
+    position: static;
+    border: 0;
+    transform: none;
+  }
+}
+
+.text-col-2 {
+  column-count: 2;
+  column-gap: $grid-gutter-width;
+
+  @media screen and (max-width: $screen-xs-max) {
+    column-count: 1;
+    column-gap: 0;
+  }
+}

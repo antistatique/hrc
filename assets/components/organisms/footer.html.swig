@@ -17,7 +17,7 @@ notes: |
   </div>
   <div class="sign-bar">
     <div class="container text-center">
-      Une réalisation <a href="http://antistatique.net">Antistatique</a>
+      Une réalisation <a href="http://antistatique.net" target="_blank">Antistatique</a>
     </div>
   </div>
 </footer>
