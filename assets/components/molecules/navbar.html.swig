@@ -24,6 +24,7 @@ notes: |
           <li {% if name == 'lhopital-riviera-chablais' %} class="active"{% endif %}>
             <a href="/lhopital-riviera-chablais">L’Hôpital Riviera-Chablais</a>
           </li>
+          <li role="separator" class="divider"></li>
           <li {% if name == 'sites-actuels' %} class="active"{% endif %}>
             <a href="/sites-actuels">Les sites actuels</a>
           </li>
@@ -59,6 +60,9 @@ notes: |
             <a href="/droits">Droits</a>
           </li>
         </ul>
+      </li>
+      <li class="visible-xs{% if name == 'emplois' %} active{% endif %}">
+        <a href="/emplois">Emplois</a>
       </li>
       <li {% if name == 'contact' %} class="active"{% endif %}>
         <a href="/contact">Contact</a>
