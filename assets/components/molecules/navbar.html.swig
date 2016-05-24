@@ -45,8 +45,18 @@ notes: |
       <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Patients et proches {% include '../atoms/chevron.html.swig' with {direction: 'down'} %}</a>
         <ul class="dropdown-menu">
-          <li>
-            <a href="#">Action</a>
+          <li {% if name == 'patients-et-proches' %} class="active"{% endif %}>
+            <a href="/patients-et-proches">Patients et proches</a>
+          </li>
+          <li role="separator" class="divider"></li>
+          <li {% if name == 'mode-demploi' %} class="active"{% endif %}>
+            <a href="/mode-demploi">Mode d'emploi</a>
+          </li>
+          <li {% if name == 'securite' %} class="active"{% endif %}>
+            <a href="/securite">Sécurité</a>
+          </li>
+          <li {% if name == 'droits' %} class="active"{% endif %}>
+            <a href="/droits">Droits</a>
           </li>
         </ul>
       </li>
