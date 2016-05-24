@@ -15,7 +15,7 @@ notes: |
     <div class="col-xs-6 col-sm-8">
       <div class="text-right">
         <ul class="nav">
-          <li><a href="#">Emplois</a></li>
+          <li><a href="/emplois">Emplois</a></li>
         </ul>
       </div>
     </div>
