@@ -16,7 +16,7 @@ notes: |
   </div>
   <div class="media-body">
     <h4 class="media-heading text-primary">{% if name %}{{name}}{% else %}Simon Tam{% endif %}</h4>
-    <h5 class="media-heading text-primary">{% if job %}{{job}}{% else %}Chirurgien traumatologue{% endif %}</h5>
+    <h5 class="media-heading">{% if job %}{{job}}{% else %}Chirurgien traumatologue{% endif %}</h5>
     <p>
       {% spaceless %}
         {% if bio %}

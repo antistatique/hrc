@@ -7,8 +7,9 @@ notes: |
   ##### Options :
   - **content** - String
   - **up** - Boolean
+  - **down** - Boolean
 ---
-<div class="well{% if up %} well-up{% endif %} text-center">
+<div class="well{% if up %} well-up{% endif %}{% if down %} well-down{% endif %} text-center">
   {% spaceless %}
     {% if content %}
       {{content|markdown|raw}}

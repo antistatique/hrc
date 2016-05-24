@@ -1,7 +1,11 @@
 @charset 'UTF-8';
 
 .doctor-teaser {
-  .media-object {
-    max-width: 150px;
-  }
+  padding: 1em;
+  padding-top: 4em;
+  padding-left: 0;
+  background: $alto;
+
+  .media-object { max-width: 150px; }
+  .media-left { padding-right: 1em; }
 }

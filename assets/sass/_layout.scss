@@ -13,7 +13,8 @@
     display: flex;
     flex-direction: column;
 
-    > .button-link { flex-grow: 1; }
+    > .button-link,
+    > .doctor-teaser { flex-grow: 1; }
   }
 
   @media screen and (max-width: $screen-xs-max) {

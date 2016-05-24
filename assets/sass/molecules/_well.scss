@@ -4,9 +4,17 @@
   padding: 2em 10%;
   color: $white;
 
+  &.well-sm { padding: 0.8em 10%; }
+
   &.well-up {
     position: relative;
     margin-top: -3em;
+  }
+
+  &.well-down {
+    position: relative;
+    z-index: 20;
+    margin-bottom: -2em;
   }
 
   p {
