@@ -35,3 +35,29 @@ contentful:
 
 <div class="spacer spacer-sm"></div>
 
+<div class="row row-flex">
+  <div class="col-sm-4">
+    {% include '../atoms/button-link.html.swig' with {label: 'Histoire', url: 'Histoire'|titleToUrl} %}
+  </div>
+  <div class="col-sm-4">
+    {% include '../atoms/button-link.html.swig' with {label: 'Gouvernance', url: 'Gouvernance'|titleToUrl} %}
+  </div>
+  <div class="col-sm-4">
+    {% include '../atoms/button-link.html.swig' with {label: 'Organigramme', url: 'Organigramme'|titleToUrl} %}
+  </div>
+</div>
+
+<div class="spacer spacer-sm"></div>
+
+<div class="row row-flex">
+  <div class="col-sm-4">
+    {% include '../atoms/button-link.html.swig' with {label: 'Employeur', url: 'Employeur'|titleToUrl} %}
+  </div>
+  <div class="col-sm-4">
+    {% include '../atoms/button-link.html.swig' with {label: 'Partenaires', url: 'Partenaires'|titleToUrl} %}
+  </div>
+  <div class="col-sm-4">
+    {% include '../atoms/button-link.html.swig' with {label: 'Chiffres clés', url: 'chiffres-cles'} %}
+  </div>
+</div>
+
