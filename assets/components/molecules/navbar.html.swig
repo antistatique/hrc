@@ -21,7 +21,11 @@ notes: |
       <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hôpital {% include '../atoms/chevron.html.swig' with {direction: 'down'} %}</a>
         <ul class="dropdown-menu">
-          <li><a href="#">Action</a></li>
+          {% for site in data.hospitals %}
+            <li{% if name == site.title|titleToUrl %} class="active"{% endif %}>
+              <a href="/{{site.title|titleToUrl}}">{{site.title}}</a>
+            </li>
+          {% endfor %}
         </ul>
       </li>
       <li{% if name == 'services-medicaux' %} class="active"{% endif %}><a href="/services-medicaux">Services médicaux</a></li>

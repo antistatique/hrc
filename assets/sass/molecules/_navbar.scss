@@ -15,7 +15,11 @@
       &:hover { background: transparent; }
     }
 
-    li.active a:hover { color: $blue-zodiac; }
-    li.active a { background: transparent; }
+    li.active a:hover,
+    li a:hover,
+    li.active a {
+      background: transparent;
+      color: $blue-zodiac;
+    }
   }
 }

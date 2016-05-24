@@ -8,7 +8,9 @@ notes: |
 <header>
   <div class="row">
     <div class="col-xs-6 col-sm-4">
-      <img class="logo" src="/build/svg/hrc-logo.svg" onerror="this.onerror=null; this.src='/build/img/hrc-logo.png'" alt="l'hôpital riviera-chablais, vaud-valais (hrc)" class="img-responsive"  />
+      <a href="/" class="logo">
+        <img src="/build/svg/hrc-logo.svg" onerror="this.onerror=null; this.src='/build/img/hrc-logo.png'" alt="l'hôpital riviera-chablais, vaud-valais (hrc)" class="img-responsive"  />
+      </a>
     </div>
     <div class="col-xs-6 col-sm-8">
       <div class="text-right">
@@ -18,5 +20,9 @@ notes: |
       </div>
     </div>
   </div>
- {% include '../molecules/navbar.html.swig' %}
+  <div class="row">
+    <div class="col-sm-8 col-sm-offset-4">
+      {% include '../molecules/navbar.html.swig' %}
+    </div>
+  </div>
 </header>
