@@ -24,6 +24,7 @@
       <i class="icon icon-envelope"></i> <code>icon-envelope</code>
       <i class="icon icon-phone"></i> <code>icon-phone</code>
       <i class="icon icon-search"></i> <code>icon-search</code>
+      <i class="icon icon-clock"></i> <code>icon-clock</code>
     </div>
     <div class="col-sm-4">
       <h3>Primary colors</h3>

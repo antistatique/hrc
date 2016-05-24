@@ -20,13 +20,9 @@ contentful:
 
 <div class="spacer spacer-sm"></div>
 
-<div class="row row-flex row-flex-end">
-  <div class="col-sm-6 theme-success">
-    {{content.futureSite|markdown|raw}}
-  </div>
-  <div class="col-sm-6">
+<div class="row">
+  <div class="col-sm-6 col-sm-offset-6">
     <h3 class="text-primary">{{content.sitesTitle}}</h3>
-
     <div class="row">
       {% for site in content.sitesRelated %}
         <div class="col-sm-4">
@@ -37,7 +33,14 @@ contentful:
         {% endif %}
       {% endfor %}
     </div>
+  </div>
+</div>
 
+<div class="spacer spacer-sm"></div>
+
+<div class="row row-flex row-flex-end">
+  <div class="col-sm-6 theme-success">
+    {{content.futureSite|markdown|raw}}
   </div>
 </div>
 

@@ -12,17 +12,17 @@ contentful:
 {% set object = contentful.contentTypes[contentful.content_type]|get(contentful.id) %}
 {% set content = object.data.fields %}
 
-{% include '../molecules/breadcrumb.html.swig' with {
-  links: [{"label": "Accueil", "url": "/"}],
-  current: title}
-%}
-
 {% include '../molecules/cover.html.swig' with {
   heading: content.title,
   desc: ' '
 } %}
 
 <div class="spacer spacer-sm"></div>
+
+{% include '../molecules/breadcrumb.html.swig' with {
+  links: [{"label": "Accueil", "url": "/"}],
+  current: title}
+%}
 
 <div class="row">
   {% for service in content.services %}

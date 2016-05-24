@@ -8,7 +8,8 @@ notes: |
   - **content** - Object (`{title, phone, desc}`)
 ---
 {% include '../atoms/block-link.html.swig' with {label: content.title, url: content.title|titleToUrl} %}
+<div class="spacer spacer-xs"></div>
+{% include '../atoms/phone.html.swig' with {number: content.phone} %}
 <p>
   {% if content.desc %}{{content.desc}}{% elseif content.urgence %}{{content.urgence}}{% endif %}
 </p>
-{% include '../atoms/phone.html.swig' with {number: content.phone} %}

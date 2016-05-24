@@ -4,6 +4,13 @@
   {% set object = contentful.contentTypes[contentful.content_type]|get(contentful.id) %}
   {% set content = object.data.fields %}
 
+  {% include '../components/molecules/cover.html.swig' with {
+    heading: content.title,
+    desc: ' '
+  } %}
+
+  <div class="spacer spacer-sm"></div>
+
   {% include '../components/molecules/breadcrumb.html.swig' with {
     links: [
       {"label": "Accueil", "url": "/"},
@@ -11,13 +18,6 @@
     ],
     current: content.title}
   %}
-
-  {% include '../components/molecules/cover.html.swig' with {
-    heading: content.title,
-    desc: ' '
-  } %}
-
-  <div class="spacer spacer-sm"></div>
 
   <div class="row">
     <div class="col-sm-5">
