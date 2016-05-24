@@ -53,24 +53,6 @@ p {
 
 pre { font-size: 1em; }
 
-.icon-circle {
-  display: inline-block;
-  position: relative;
-  width: 2.5em;
-  margin-right: 0.3em;
-  padding: 0.5em;
-  border: 1px solid $brand-primary;
-  border-radius: 50em;
-  font-size: 0.9em;
-
-  &.icon-clock {
-    top: -0.3em;
-    width: 1.65em;
-    padding: 0.28em;
-    font-size: 1.3em;
-  }
-}
-
 .content ul {
   padding-left: 1em;
 

@@ -5,8 +5,8 @@
   {% set content = object.data.fields %}
 
   {% include '../components/molecules/cover.html.swig' with {
+    src: content.coverImage.fields.file.url,
     heading: content.title,
-    desc: ' '
   } %}
 
   <div class="spacer spacer-sm"></div>

@@ -21,17 +21,13 @@ notes: |
     class="img-responsive">
 
   <div class="cover-content">
-    <h1 class="text-primary">
-      {% if heading %}{{heading}}{% else %}Hôpital Riviera-Chablais{% endif %}
-    </h1>
-    <p>
-      {% spaceless %}
-        {% if desc %}
-          {{desc}}
-        {% else %}
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Verum hoc idem saepe faciamus. In qua si nihil est praeter rationem, sit in una virtute finis bonorum; Magni enim aestimabat pecuniam non modo non contra leges, sed etiam legibus partam. Quae cum dixisset paulumque institisset, Quid est? Non enim, si omnia non sequebatur.
-        {% endif %}
-      {% endspaceless %}
-    </p>
+    {% spaceless %}
+      {% if heading %}
+        <h1 class="text-primary">{{heading}}</h1>
+      {% endif %}
+      {% if desc %}
+        <p>{{desc}}</p>
+      {% endif %}
+    {% endspaceless %}
   </div>
 </div>
