@@ -13,15 +13,21 @@ contentful:
 {% set content = object.data.fields %}
 
 {% include '../molecules/cover.html.swig' with {
-  heading: content.coverTitle,
-  desc: content.coverDesc,
   emergency: true
 } %}
 
 <div class="spacer spacer-sm"></div>
 
 <div class="row">
-  <div class="col-sm-6 col-sm-offset-6">
+  <div class="col-sm-6">
+    <h1 class="text-primary">
+      {{content.coverTitle}}
+    </h1>
+    <p>
+      {{content.coverDesc|markdown|raw}}
+    </p>
+  </div>
+  <div class="col-sm-6">
     <h3 class="text-primary">{{content.sitesTitle}}</h3>
     <div class="row">
       {% for site in content.sitesRelated %}

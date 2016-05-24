@@ -12,10 +12,7 @@ contentful:
 {% set object = contentful.contentTypes[contentful.content_type]|get(contentful.id) %}
 {% set content = object.data.fields %}
 
-{% include '../molecules/cover.html.swig' with {
-  heading: content.title,
-  desc: ' '
-} %}
+{% include '../molecules/cover.html.swig' %}
 
 <div class="spacer spacer-sm"></div>
 
@@ -23,6 +20,8 @@ contentful:
   links: [{"label": "Accueil", "url": "/"}],
   current: title}
 %}
+
+<h1 class="text-primary">{{content.title}}</h1>
 
 <div class="row row-flex">
   {% for service in content.services %}

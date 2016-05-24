@@ -13,8 +13,7 @@ contentful:
 {% set content = object.data.fields %}
 
 {% include '../molecules/cover.html.swig' with {
-  src: content.coverImage.fields.file.url,
-  heading: content.title,
+  src: content.coverImage.fields.file.url
 } %}
 
 <div class="spacer spacer-sm"></div>
@@ -29,6 +28,7 @@ contentful:
 
 <div class="row">
   <div class="col-sm-8">
+    <h1 class="text-primary">{{content.title}}</h1>
     {{content.body|markdown|raw}}
   </div>
 </div>
