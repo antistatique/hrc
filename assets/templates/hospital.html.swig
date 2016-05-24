@@ -15,7 +15,7 @@
   {% include '../components/molecules/breadcrumb.html.swig' with {
     links: [
       {"label": "Accueil", "url": "/"},
-      {"label": "Hôpital", "url": "#"},
+      {"label": "Hôpital", "url": "/lhopital-riviera-chablais"},
       {"label": "Sites actuels", "url": "#"},
     ],
     current: content.title}

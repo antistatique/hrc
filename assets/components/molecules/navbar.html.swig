@@ -21,6 +21,19 @@ notes: |
       <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hôpital {% include '../atoms/chevron.html.swig' with {direction: 'down'} %}</a>
         <ul class="dropdown-menu">
+          <li {% if name == 'lhopital-riviera-chablais' %} class="active"{% endif %}>
+            <a href="/lhopital-riviera-chablais">L’Hôpital Riviera-Chablais</a>
+          </li>
+          <li {% if name == 'sites-actuels' %} class="active"{% endif %}>
+            <a href="/sites-actuels">Les sites actuels</a>
+          </li>
+          <li {% if name == 'site-de-demain' %} class="active"{% endif %}>
+            <a href="/site-de-demain">Le site de demain</a>
+          </li>
+          <li {% if name == 'qui-sommes-nous' %} class="active"{% endif %}>
+            <a href="/qui-sommes-nous">Qui sommes-nous ?</a>
+          </li>
+          <li role="separator" class="divider"></li>
           {% for site in data.hospitals %}
             <li{% if name == site.title|titleToUrl %} class="active"{% endif %}>
               <a href="/{{site.title|titleToUrl}}">{{site.title}}</a>
@@ -32,10 +45,14 @@ notes: |
       <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Patients et proches {% include '../atoms/chevron.html.swig' with {direction: 'down'} %}</a>
         <ul class="dropdown-menu">
-          <li><a href="#">Action</a></li>
+          <li>
+            <a href="#">Action</a>
+          </li>
         </ul>
       </li>
-      <li><a href="#">Contact</a></li>
+      <li>
+        <a href="#">Contact</a>
+      </li>
     </ul>
   </div>
 </nav>

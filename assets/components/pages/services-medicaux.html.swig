@@ -24,13 +24,13 @@ contentful:
   current: title}
 %}
 
-<div class="row">
+<div class="row row-flex">
   {% for service in content.services %}
     <div class="col-sm-4">
       {% include '../atoms/button-link.html.swig' with {label: service.fields.title, url: service.fields.title|titleToUrl} %}
     </div>
     {% if loop.index % 3 == 0 %}
-      </div><div class="spacer spacer-sm"></div><div class="row">
+      </div><div class="spacer spacer-sm"></div><div class="row row-flex">
     {% endif %}
   {% endfor %}
 </div>
