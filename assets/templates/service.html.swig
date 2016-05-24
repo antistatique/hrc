@@ -24,6 +24,8 @@
     {{content.body|markdown|raw}}
   </div>
 
+  <div class="spacer spacer-md"></div>
+
   <div class="row">
     <div class="col-sm-6 col-sm-offset-3">
       <div class="well well-down well-sm text-center">
