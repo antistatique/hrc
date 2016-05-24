@@ -1,5 +1,7 @@
 @charset 'UTF-8';
 
+.container { max-width: 100%; }
+
 .row-flex {
   display: flex;
   flex-wrap: wrap;
