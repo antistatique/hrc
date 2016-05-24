@@ -13,6 +13,7 @@ contentful:
 {% set content = object.data.fields %}
 
 {% include '../molecules/cover.html.swig' with {
+  src: 'http://images.contentful.com/fbqunpc2pjfz/1lJacxX2zqAs2GAkUYw6E8/0fed711a2af51d9b94490d18b039261d/Vevey_Providence_SIC-005.jpg',
   emergency: true
 } %}
 
@@ -54,7 +55,8 @@ contentful:
 
 <div class="row">
   {% include '../molecules/large-teaser.html.swig' with {
-    url: 'somepage.html',
+    src: 'http://images.contentful.com/fbqunpc2pjfz/2o0uzZTaeY04uEQKYUwKSi/93839247e6bffcc136264bcab99dbb63/CoverSitedemain.jpg',
+    url: 'site-de-demain',
     label: 'En savoir plus sur le nouvel hôpital',
     theme: 'success'
   } %}
