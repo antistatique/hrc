@@ -1,6 +1,6 @@
 ---
 title: service-de-medecine-interne-generale
-name: service-de-medecine-interne-generale
+name: medecine-interne-generale
 collection: pages
 styleguide: false
 layout: service.html.swig

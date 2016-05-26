@@ -1,6 +1,6 @@
 ---
 title: service-des-urgences
-name: service-des-urgences
+name: urgences
 collection: pages
 styleguide: false
 layout: service.html.swig

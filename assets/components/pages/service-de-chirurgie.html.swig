@@ -1,6 +1,6 @@
 ---
 title: service-de-chirurgie
-name: service-de-chirurgie
+name: chirurgie
 collection: pages
 styleguide: false
 layout: service.html.swig

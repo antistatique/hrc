@@ -1,6 +1,6 @@
 ---
 title: service-de-pediatrie
-name: service-de-pediatrie
+name: pediatrie
 collection: pages
 styleguide: false
 layout: service.html.swig

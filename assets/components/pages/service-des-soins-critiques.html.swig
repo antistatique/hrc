@@ -1,6 +1,6 @@
 ---
 title: service-des-soins-critiques
-name: service-des-soins-critiques
+name: soins-critiques
 collection: pages
 styleguide: false
 layout: service.html.swig

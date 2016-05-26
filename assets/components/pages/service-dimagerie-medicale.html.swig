@@ -1,6 +1,6 @@
 ---
 title: service-dimagerie-medicale
-name: service-dimagerie-medicale
+name: imagerie-medicale
 collection: pages
 styleguide: false
 layout: service.html.swig

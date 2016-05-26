@@ -1,6 +1,6 @@
 ---
 title: service-de-gynecologie-et-dobstetrique
-name: service-de-gynecologie-et-dobstetrique
+name: gynecologie-et-obstetrique
 collection: pages
 styleguide: false
 layout: service.html.swig

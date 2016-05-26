@@ -1,6 +1,6 @@
 ---
 title: service-dorthopedie-et-de-traumatologie
-name: service-dorthopedie-et-de-traumatologie
+name: orthopedie-et-traumatologie
 collection: pages
 styleguide: false
 layout: service.html.swig

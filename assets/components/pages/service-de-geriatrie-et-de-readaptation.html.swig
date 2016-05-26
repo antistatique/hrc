@@ -1,6 +1,6 @@
 ---
 title: service-de-geriatrie-et-de-readaptation
-name: service-de-geriatrie-et-de-readaptation
+name: geriatrie-et-readaptation
 collection: pages
 styleguide: false
 layout: service.html.swig

@@ -1,6 +1,6 @@
 ---
 title: service-danesthesiologie
-name: service-danesthesiologie
+name: anesthesiologie
 collection: pages
 styleguide: false
 layout: service.html.swig
