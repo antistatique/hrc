@@ -9,9 +9,10 @@ module.exports = function() {
  /**
   * Deploy to GH pages
   */
-  gulp.task('deploy', function () {
+  gulp.task('zip', function () {
     return gulp.src(config.app.ghpages + '/**/*')
-      .pipe($.ghPages());
+      .pipe($.zip('archive.zip'))
+      .pipe(gulp.dest(config.metalsmith.dist));
   });
 
 };

@@ -18,6 +18,7 @@ require(config.tasks + 'clean')();              // $ gulp clean
 require(config.tasks + 'metalsmith')();         // $ gulp metalsmith
 require(config.tasks + 'server')();             // $ gulp serve
 require(config.tasks + 'gh-pages')();           // $ gulp deploy
+require(config.tasks + 'zip')();                // $ gulp zip
 require(config.tasks + 'tests-regression')();   // $ gulp regression
 require(config.tasks + 'tests-unit')();         // $ gulp test:unit
 require(config.tasks + 'tests-navigation')();   // $ gulp test:navigation
