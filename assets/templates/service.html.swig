@@ -18,9 +18,9 @@
     current: content.title}
   %}
 
+  <h1 class="text-primary">{{content.title}}</h1>
+  <div class="spacer spacer-xs"></div>
   <div class="text-col-2">
-    <h1 class="text-primary">{{content.title}}</h1>
-    <div class="spacer spacer-xs"></div>
     {{content.body|markdown|raw}}
   </div>
 

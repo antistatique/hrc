@@ -88,6 +88,11 @@ pre { font-size: 1em; }
   column-count: 2;
   column-gap: $grid-gutter-width;
 
+  p {
+    margin: 0;
+    margin-bottom: 1em * $gr;
+  }
+
   @media screen and (max-width: $screen-xs-max) {
     column-count: 1;
     column-gap: 0;
