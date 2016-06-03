@@ -19,7 +19,7 @@ notes: |
       {% endif %}
       {% if desc %}
         <p>
-          {{desc}}
+          {{desc|markdown|raw}}
         </p>
       {% endif %}
     {% endspaceless %}
