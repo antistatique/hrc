@@ -58,7 +58,7 @@
       <ul>
         {% for page in collections.pages %}
           <li>
-            <a href="/{{page.title}}">{{page.title}}</a>
+            <a href="/{{page.name}}">{{page.title}}</a>
           </li>
         {% endfor %}
       </ul>
