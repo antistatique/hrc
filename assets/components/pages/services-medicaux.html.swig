@@ -21,7 +21,14 @@ contentful:
   current: title}
 %}
 
-<h1 class="text-primary">{{content.title}}</h1>
+<div class="row theme-primary">
+  <div class="col-sm-8">
+    <h1 class="text-primary">{{content.title}}</h1>
+    {{content.body|markdown|raw}}
+  </div>
+</div>
+
+<div class="spacer spacer-md"></div>
 
 <div class="row row-flex grid">
   {% for service in content.services %}
