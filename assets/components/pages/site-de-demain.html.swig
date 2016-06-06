@@ -40,14 +40,25 @@ contentful:
 </h2>
 
 <div class="spacer spacer-sm"></div>
+  {% include '../atoms/shadow-separator.html.swig' %}
 
-<div class="row">
-  <div class="col-sm-6">
-    <img src="/build/img/map.jpg" class="img-responsive img-full">
+  <div class="spacer spacer-xs"></div>
+  <h2 class="text-primary">
+    Les sites actuels
+  </h2>
+
+  <div class="spacer spacer-md"></div>
+
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="/build/img/map.jpg" class="img-responsive img-full">
+    </div>
+    <div class="col-sm-6">
+      {% for hospital in content.hospitals %}
+        {% include '../molecules/hospital-item.html.swig' with {
+          content: hospital.fields,
+          nothumb: true
+        } %}
+      {% endfor %}
+    </div>
   </div>
-  <div class="col-sm-6">
-    {% for hospital in content.hospitals %}
-      {% include '../molecules/hospital-item.html.swig' with {content: hospital.fields} %}
-    {% endfor %}
-  </div>
-</div>
