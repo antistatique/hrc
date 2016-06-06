@@ -45,4 +45,7 @@ contentful:
   <div class="col-sm-4">
     {% include '../atoms/button-link.html.swig' with {label: 'Droits', url: 'droits'} %}
   </div>
+  <div class="col-sm-4">
+    {% include '../atoms/button-link.html.swig' with {label: 'Commission d’éthique clinique', url: 'commission-dethique-clinique'} %}
+  </div>
 </div>

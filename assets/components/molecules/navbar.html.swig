@@ -59,6 +59,9 @@ notes: |
           <li {% if name == 'droits' %} class="active"{% endif %}>
             <a href="/droits">Droits</a>
           </li>
+          <li {% if name == 'commission-dethique-clinique' %} class="active"{% endif %}>
+            <a href="/commission-dethique-clinique">Commission d’éthique clinique</a>
+          </li>
         </ul>
       </li>
       <li class="visible-xs{% if name == 'emplois' %} active{% endif %}">
