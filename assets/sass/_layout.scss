@@ -21,3 +21,9 @@
     display: block;
   }
 }
+
+.grid {
+  [class*='col-'] {
+    margin-bottom: $grid-gutter-width / 2;
+  }
+}

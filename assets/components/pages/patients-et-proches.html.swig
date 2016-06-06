@@ -35,7 +35,7 @@ contentful:
 
 <div class="spacer spacer-sm"></div>
 
-<div class="row row-flex">
+<div class="row row-flex grid">
   <div class="col-sm-4">
     {% include '../atoms/button-link.html.swig' with {label: "Mode d'emploi", url: 'mode-demploi'} %}
   </div>
