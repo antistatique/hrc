@@ -26,4 +26,12 @@
   small {
     line-height: 0.5em;
   }
+
+  @media screen and (max-width: $screen-xs-max) {
+    &.well-up,
+    &.well-down {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
 }
