@@ -7,4 +7,17 @@
 
   .media-object { max-width: 150px; }
   .media-left { padding-right: 1em; }
+
+  @media screen and (max-width: $screen-xs-max) {
+    .media-left {
+      display: block;
+      text-align: center;
+    }
+
+    .media-object { display: inline-block; }
+
+    .media-body {
+      padding: $grid-gutter-width / 2;
+    }
+  }
 }
