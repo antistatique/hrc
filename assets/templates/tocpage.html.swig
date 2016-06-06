@@ -25,7 +25,7 @@
         <ul class="list-unstyled" id="tocnav-list"></ul>
       </div>
     </div>
-    <div class="col-sm-8" id="tocnav-content">
+    <div class="col-sm-8 tocnav-content" id="tocnav-content">
       <h1 class="text-primary">{{content.title}}</h1>
       {{content.body|markdown|raw}}
     </div>
