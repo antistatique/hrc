@@ -1,14 +1,13 @@
 @charset 'UTF-8';
 
 .tocnav {
-  padding: 1em 0;
+  padding: 1.5em 1em;
   background: $brand-primary;
   font-weight: 400;
 
   ul li {
     padding-top: 0.2em;
     padding-bottom: 0.2em;
-    padding-left: 0.5em;
     border-left: 1px solid transparentize($white, 0.3);
 
     &:before { content: none; }
@@ -23,30 +22,34 @@
 
 .toc-item-h1 {
   margin-left: 0;
+  /* stylelint-disable declaration-no-important */
+  /* For cleaner un-nested code */
+  border-left: 0 !important;
+  /* stylelint-enable declaration-no-important */
   font-size: 1em;
 }
 
 .toc-item-h2 {
-  margin-left: 1em;
+  padding-left: 1em;
   font-size: 0.9em;
 }
 
 .toc-item-h3 {
-  margin-left: 2em;
+  padding-left: 2em;
   font-size: 0.8em;
 }
 
 .toc-item-h4 {
-  margin-left: 3em;
+  padding-left: 3em;
   font-size: 0.7em;
 }
 
 .toc-item-h5 {
-  margin-left: 5em;
+  padding-left: 5em;
   font-size: 0.6em;
 }
 
 .toc-item-h6 {
-  margin-left: 7em;
+  padding-left: 7em;
   font-size: 0.5em;
 }
