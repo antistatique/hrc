@@ -53,9 +53,8 @@
     </div>
   </div>
 
-  <div class="spacer spacer-md"></div>
-
-  <hr>
+  <div class="spacer spacer-sm"></div>
+  {% include '../components/atoms/shadow-separator.html.swig' %}
 
   <div class="spacer spacer-xs"></div>
   <h2 class="text-primary">

@@ -34,23 +34,27 @@
     </div>
   </div>
 
-  <div class="row row-flex">
-    {% for doctor in content.medicalDirection %}
+  <div class="row">
+    <div class="col-sm-10 col-sm-offset-1">
+      <div class="row row-flex">
+        {% for doctor in content.medicalDirection %}
 
-      <div class="col-sm-6">
-        {% include '../components/molecules/doctor-teaser.html.swig' with {
-          img: doctor.fields.image.fields.file.url,
-          name: doctor.fields.name,
-          job: doctor.fields.function,
-          bio: doctor.fields.bio
-        } %}
+          <div class="col-sm-6 shadow-separator shadow-separator-left shadow-separator-right">
+            {% include '../components/molecules/doctor-teaser.html.swig' with {
+              img: doctor.fields.image.fields.file.url,
+              name: doctor.fields.name,
+              job: doctor.fields.function,
+              bio: doctor.fields.bio
+            } %}
+          </div>
+
+          {% if loop.index % 2 == 0 %}
+            </div><div class="spacer spacer-md"></div><div class="row">
+          {% endif %}
+
+        {% endfor %}
       </div>
-
-      {% if loop.index % 2 == 0 %}
-        </div><div class="spacer spacer-md"></div><div class="row">
-      {% endif %}
-
-    {% endfor %}
+    </div>
   </div>
 
   <div class="sapcer spacer-sm"></div>

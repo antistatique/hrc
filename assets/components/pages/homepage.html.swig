@@ -44,6 +44,7 @@ contentful:
 </div>
 
 <div class="spacer spacer-sm"></div>
+{% include '../atoms/shadow-separator.html.swig' %}
 
 <div class="row row-flex row-flex-end">
   <div class="col-sm-6 theme-success">

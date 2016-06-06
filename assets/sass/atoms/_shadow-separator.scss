@@ -3,8 +3,8 @@
 hr.shadow-separator {
   height: 20px;
   margin: $grid-gutter-width auto;
-  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.4) 0%, $white 75%);
-  box-shadow: inset 0 10px 0 0 $white;
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.2) 0%, $white 75%);
+  box-shadow: inset 0 12px 0 0 $white;
   border: none;
 }
 
@@ -17,8 +17,9 @@ hr.shadow-separator {
   &.shadow-separator-left:before {
     content: '\00a0';
     position: absolute;
-    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.4) 0%, $white 75%);
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.2) 0%, $white 75%);
     border: none;
+    z-index: -1;
   }
 
   &.shadow-separator-top:before,
@@ -36,22 +37,22 @@ hr.shadow-separator {
   }
 
   &.shadow-separator-right:after {
-    right: -20px;
-    box-shadow: inset 10px 0 0 0 $white;
+    right: 10px;
+    box-shadow: inset 12px 0 0 0 $white;
   }
 
   &.shadow-separator-left:before {
-    left: -20px;
-    box-shadow: inset -10px 0 0 0 $white;
+    left: 10px;
+    box-shadow: inset -12px 0 0 0 $white;
   }
 
   &.shadow-separator-bottom:after {
     bottom: -20px;
-    box-shadow: inset 0 10px 0 0 $white;
+    box-shadow: inset 0 12px 0 0 $white;
   }
 
   &.shadow-separator-top:before {
     top: -20px;
-    box-shadow: inset 0 -10px 0 0 $white;
+    box-shadow: inset 0 -12px 0 0 $white;
   }
 }
