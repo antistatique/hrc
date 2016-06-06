@@ -2,49 +2,51 @@
 
 .tocnav {
   padding: 1em 0;
-  background: $alto;
-  font-size: $font-size-large;
+  background: $brand-primary;
   font-weight: 400;
 
   ul li {
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    padding-left: 0.5em;
+    border-left: 1px solid transparentize($white, 0.3);
 
     &:before { content: none; }
   }
 
   a {
-    color: $blue-zodiac;
-    &:hover { color: $cerulean; }
+    text-transform: uppercase;
+    color: transparentize($white, 0.15);
+    &:hover { color: $white; }
   }
 }
 
 .toc-item-h1 {
-  padding-left: 0;
+  margin-left: 0;
   font-size: 1em;
 }
 
 .toc-item-h2 {
-  padding-left: 1em;
+  margin-left: 1em;
   font-size: 0.9em;
 }
 
 .toc-item-h3 {
-  padding-left: 2.5em;
+  margin-left: 2em;
   font-size: 0.8em;
 }
 
 .toc-item-h4 {
-  padding-left: 4em;
+  margin-left: 3em;
   font-size: 0.7em;
 }
 
 .toc-item-h5 {
-  padding-left: 6em;
+  margin-left: 5em;
   font-size: 0.6em;
 }
 
 .toc-item-h6 {
-  padding-left: 9em;
+  margin-left: 7em;
   font-size: 0.5em;
 }
