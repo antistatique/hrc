@@ -16,9 +16,9 @@
       {% endif %}
     </title>
 
-    {% set data = contentful.contentTypes[contentful.content_type]|get(contentful.id) %}
-    {% set seoTitle = data.data.fields.seoTitle %}
-    {% set seoDescription = data.data.fields.seoDescription %}
+    {% set headData = contentful.contentTypes[contentful.content_type]|get(contentful.id) %}
+    {% set seoTitle = headData.data.fields.seoTitle %}
+    {% set seoDescription = headData.data.fields.seoDescription %}
 
     <meta name="description" content="{% spaceless %}
       {% if seoDescription %}
