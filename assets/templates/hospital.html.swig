@@ -40,6 +40,11 @@
           } %}
           {% include '../components/atoms/phone.html.swig' with {number: content.phone} %}
           {% include '../components/atoms/iconed-item.html.swig' with {
+            theme: 'warning',
+            icon: 'cross',
+            heading: content.numberEmergency|phoneFancy|raw
+          } %}
+          {% include '../components/atoms/iconed-item.html.swig' with {
             theme: 'primary',
             icon: 'clock',
             heading: 'Horaires des visites'

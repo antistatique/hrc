@@ -14,4 +14,7 @@ notes: |
   <p>
     {% if content.desc %}{{content.desc}}{% elseif content.urgence %}{{content.urgence}}{% endif %}
   </p>
+  {% if content.numberEmergency %}
+    <span class="text-warning"><small class="icon icon-cross"></small>&nbsp;&nbsp;{{content.numberEmergency|phoneFancy|raw}}</span>
+  {% endif %}
 </div>

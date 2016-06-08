@@ -15,7 +15,7 @@ notes: |
   <div class="item-iconed-content">
     {% spaceless %}
       {% if heading %}
-        <h6>{{heading}}</h6>
+        <h6>{{heading|raw}}</h6>
       {% endif %}
       {% if desc %}
         <p>
