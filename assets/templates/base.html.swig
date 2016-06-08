@@ -27,7 +27,7 @@
         L’établissement hospitalier intercantonal entre Vaud et Valais se déploie au cœur d’une région en plein essor, qui comptera 190000 habitants dans quelques années. Les sites sont : Vevey, Montreux, Mottex, Aigle et Monthey.
       {% endif %}
     {% endspaceless %}">
-    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="keywords" content="Hôpital, Services médicaux, Médicament, Riviera, Chablais, Mottex, Montreux, Monthey, Vevey, Aigle, Anesthésiologie, Gynécologie, Obstétrique, Orthopédie, Traumatologie, Cancerologie, Chirurgie, Imagerie médicale, Radiologie, Pédiatrie, Soins critiques, Gériatrie, Réadaptation, Médecine interne générale, Physiothérapie, Ergothérapie, Urgences, Consultations médicales, Patients, éthique">
     <meta name="viewport" content="width=device-width">
     <meta property="og:locale" content="fr_FR" />
     <meta property="og:type" content="website" />
