@@ -1,6 +1,6 @@
 ---
 title: physiotherapie
-name: physiotherapie
+name: physiotherapie-et-ergotherapie
 collection: pages
 styleguide: false
 layout: service.html.swig
