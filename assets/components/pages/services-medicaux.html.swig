@@ -12,7 +12,9 @@ contentful:
 {% set object = contentful.contentTypes[contentful.content_type]|get(contentful.id) %}
 {% set content = object.data.fields %}
 
-{% include '../molecules/cover.html.swig' %}
+{% include '../molecules/cover.html.swig' with {
+  src: 'https://images.contentful.com/fbqunpc2pjfz/6RCpWUJNUAoe442mok6U4u/cd7fc6a880bd7e01ff688fe0780cc377/HRC_CoverServicester.jpg'
+} %}
 
 <div class="spacer spacer-sm"></div>
 
