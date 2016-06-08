@@ -7,10 +7,52 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title></title>
-    <meta name="description" content="">
+    <title>
+      Hôpital Riviera-Chablais (HRC) -
+      {% if content.title %}
+        {{content.title}}
+      {% else %}
+        {{title}}
+      {% endif %}
+    </title>
+
+    {% set data = contentful.contentTypes[contentful.content_type]|get(contentful.id) %}
+    {% set seoTitle = data.data.fields.seoTitle %}
+    {% set seoDescription = data.data.fields.seoDescription %}
+
+    <meta name="description" content="{% spaceless %}
+      {% if seoDescription %}
+        {{seoDescription}}
+      {% else %}
+        L’établissement hospitalier intercantonal entre Vaud et Valais se déploie au cœur d’une région en plein essor, qui comptera 190000 habitants dans quelques années. Les sites sont : Vevey, Montreux, Mottex, Aigle et Monthey.
+      {% endif %}
+    {% endspaceless %}">
     <meta name="keywords" content="HTML,CSS,XML,JavaScript">
     <meta name="viewport" content="width=device-width">
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://images.contentful.com/fbqunpc2pjfz/1lJacxX2zqAs2GAkUYw6E8/2627d12dc35bdc522684f1be53e1de4c/hrc_coverhp.jpg" />
+    <meta property="og:title" content="Hôpital Riviera-Chablais (HRC) - {% spaceless %}
+      {% if seoTitle %}
+        {{seoTitle}}
+      {% elseif content.title %}
+        {{content.title}}
+      {% else %}
+        {{title}}
+      {% endif %}
+    {% endspaceless %}" />
+    <meta property="og:url" content="http://hopitalrivierachablais.ch/{{name}}" />
+    <meta property="og:site_name" content="Hôpital Riviera-Chablais (HRC)" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Hôpital Riviera-Chablais (HRC) - {% spaceless %}
+      {% if seoTitle %}
+        {{seoTitle}}
+      {% elseif content.title %}
+        {{content.title}}
+      {% else %}
+        {{title}}
+      {% endif %}
+    {% endspaceless %}" />
 
     {% if styleguide %}
       <link rel="stylesheet" href="/build/css/styleguide.css">
