@@ -18,11 +18,21 @@
     current: content.title}
   %}
 
-  <h1 class="text-primary">{{content.title}}</h1>
+  <h1>{{content.title}}</h1>
   <div class="spacer spacer-xs"></div>
-  <div class="text-col-2">
+  <div class="text-col-2 theme-primary">
     {{content.body|markdown|raw}}
   </div>
+
+  {% if content.prestation.length > 5 %}
+    <div class="spacer spacer-sm"></div>
+    <hr class="shadow-separator">
+    <div class="spacer spacer-sm"></div>
+
+    <div class="text-col-2 theme-primary">
+      {{content.prestation|markdown|raw}}
+    </div>
+  {% endif %}
 
   <div class="spacer spacer-md"></div>
 
