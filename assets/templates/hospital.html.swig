@@ -39,11 +39,13 @@
             heading: content.address
           } %}
           {% include '../components/atoms/phone.html.swig' with {number: content.phone} %}
-          {% include '../components/atoms/iconed-item.html.swig' with {
-            theme: 'warning',
-            icon: 'cross',
-            heading: content.numberEmergency|phoneFancy|raw
-          } %}
+          {% if content.numberEmergency %}
+            {% include '../components/atoms/iconed-item.html.swig' with {
+              theme: 'warning',
+              icon: 'cross',
+              heading: content.numberEmergency|phoneFancy|raw
+            } %}
+          {% endif %}
           {% include '../components/atoms/iconed-item.html.swig' with {
             theme: 'primary',
             icon: 'clock',
