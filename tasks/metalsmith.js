@@ -10,6 +10,7 @@ var path          = require('path'),
     dotenv        = require('dotenv'),
     markdown      = require('metalsmith-markdown'),
     permalinks    = require('metalsmith-permalinks'),
+    sitemap       = require('metalsmith-mapsite'),
     layouts       = require('metalsmith-layouts'),
     define        = require('metalsmith-define'),
     contentful    = require('contentful-metalsmith'),
@@ -80,7 +81,8 @@ module.exports = function() {
             }
             done();
           },
-          permalinks(config.metalsmith.plugins.permalinks)
+          permalinks(config.metalsmith.plugins.permalinks),
+          sitemap('http://hopitalrivierachablais.ch')
         ]
       }))
       .pipe(gulp.dest(config.metalsmith.dist));
