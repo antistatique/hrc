@@ -13,7 +13,7 @@ contentful:
 {% set content = object.data.fields %}
 
 {% include '../molecules/cover.html.swig' with {
-  src: 'http://images.contentful.com/fbqunpc2pjfz/1lJacxX2zqAs2GAkUYw6E8/0fed711a2af51d9b94490d18b039261d/Vevey_Providence_SIC-005.jpg',
+  src: 'https://images.contentful.com/fbqunpc2pjfz/1lJacxX2zqAs2GAkUYw6E8/2627d12dc35bdc522684f1be53e1de4c/hrc_coverhp.jpg',
   emergency: true
 } %}
 
