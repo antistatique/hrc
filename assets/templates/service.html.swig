@@ -18,7 +18,7 @@
     current: content.title}
   %}
 
-  <h1>{{content.title}}</h1>
+  <h1 class="text-primary">{{content.title}}</h1>
   <div class="spacer spacer-xs"></div>
   <div class="text-col-2 theme-primary">
     {{content.body|markdown|raw}}
