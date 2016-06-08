@@ -13,6 +13,7 @@ require(config.tasks + 'images')();             // $ gulp img
 require(config.tasks + 'styles')();             // $ gulp styles
 require(config.tasks + 'scripts')();            // $ gulp scripts
 require(config.tasks + 'icons')();              // $ gulp icons
+require(config.tasks + 'statics')();            // $ gulp statics
 require(config.tasks + 'favicons')();           // $ gulp favicons
 require(config.tasks + 'clean')();              // $ gulp clean
 require(config.tasks + 'metalsmith')();         // $ gulp metalsmith
@@ -45,5 +46,5 @@ gulp.task('build',['clean'], function() {
  * Default task
  */
 gulp.task('default', ['clean'], function(done){
-  runSequence(['css-vendors', 'js-vendors', 'fonts-vendors', 'polyfills-vendors', 'img', 'icons', 'styles', 'scripts', 'metalsmith-styles', 'metalsmith-scripts'], 'favicons', 'metalsmith',  done);
+  runSequence(['css-vendors', 'js-vendors', 'fonts-vendors', 'polyfills-vendors', 'img', 'icons', 'styles', 'scripts', 'metalsmith-styles', 'metalsmith-scripts'], 'favicons', 'statics', 'metalsmith',  done);
 });
