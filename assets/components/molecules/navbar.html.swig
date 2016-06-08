@@ -64,9 +64,9 @@ notes: |
           </li>
         </ul>
       </li>
-      <li class="visible-xs{% if name == 'emplois' %} active{% endif %}">
+      {# <li class="visible-xs{% if name == 'emplois' %} active{% endif %}">
         <a href="/emplois">Emplois</a>
-      </li>
+      </li> #}
       <li {% if name == 'contact' %} class="active"{% endif %}>
         <a href="/contact">Contact</a>
       </li>
