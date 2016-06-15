@@ -24,11 +24,35 @@ contentful:
   current: 'contact'}
 %}
 
-<div class="row">
+<div class="row theme-primary">
   <div class="col-sm-6 col-sm-offset-3">
     <h1 class="text-primary">Contact</h1>
 
     <div class="spacer spacer-sm"></div>
+
+    <h3>Unité relations patients</h3>
+
+    <p>
+      <strong>Valérie Burnier</strong><br>
+      Coordinatrice<br>
+      <a href="mailto:valerie.burnier@hopitalrivierachablais.ch">valerie.burnier@hopitalrivierachablais.ch</a><br>
+      <br>
+      <strong>Catherine Quentin</strong><br>
+      Coordinatrice<br>
+      <a href="mailto:catherine.quentin@hopitalrivierachablais.ch">catherine.quentin@hopitalrivierachablais.ch</a>
+    </p>
+
+    <h3>Communication</h3>
+
+    <p>
+      <strong>Patricia Claivaz</strong>, responsable<br>
+      <br>
+      <strong>Marco Danesi</strong><br>
+      T. <a href="tel:0041219234846">+41 21 923 48 46</a><br>
+      <a href="mailto:communication@hopitalrivierachablais.ch">communication@hopitalrivierachablais.ch</a>
+    </p>
+
+    <div class="spacer spacer-md"></div>
 
     {% for hospital in hospitals %}
       {% include '../molecules/hospital-item.html.swig' with {
