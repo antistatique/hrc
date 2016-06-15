@@ -1,6 +1,6 @@
 ---
-title: service-interdisciplinaire-de-cancerologie-sic
-name: service-interdisciplinaire-de-cancerologie-sic
+title: Service interdisciplinaire de cancérologie
+name: service-interdisciplinaire-de-cancerologie
 collection: pages
 styleguide: false
 layout: service.html.swig
