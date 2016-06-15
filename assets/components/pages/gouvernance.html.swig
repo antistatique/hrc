@@ -30,7 +30,7 @@ contentful:
 <div class="row theme-primary">
   <div class="col-sm-4">
     <div class="spacer spacer-sm"></div>
-    <div class="tocnav">
+    <div class="tocnav hidden-xs">
       <ul class="list-unstyled" id="tocnav-list"></ul>
     </div>
   </div>

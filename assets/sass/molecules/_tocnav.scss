@@ -67,4 +67,12 @@
   .h6 {
     margin-top: 1.5em;
   }
+
+  @media screen and (max-width: $screen-xs-max) {
+    h3 {
+      font-size: 1.5em;
+
+      &.collapsed .chevron.chevron-up { transform: rotate(135deg); }
+    }
+  }
 }
