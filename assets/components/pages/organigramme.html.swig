@@ -6,7 +6,7 @@ styleguide: false
 layout: page.html.swig
 ---
 {% include '../molecules/cover.html.swig' with {
-  src: content.coverImage.fields.file.url
+  src: '/build/img/cover_organigramme.png'
 } %}
 
 <div class="spacer spacer-sm"></div>
