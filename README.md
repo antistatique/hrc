@@ -2,9 +2,7 @@
 
 ## Install
 
-1. Setup your virtualhost (like `http://hrc.dev`) to serve `/public`.
-
-2. Set the ContentFul API key on the `.env`.
+Set the ContentFul API key on the `.env`.
 
 ```vim
 CONTENTFUL_KEY=XXXXXX
@@ -19,4 +17,4 @@ $ gulp serve
 
 ## Get build
 
-...
+Go to [hrc.alwaysdata.net/archive.zip](http://hrc.alwaysdata.net/archive.zip)
