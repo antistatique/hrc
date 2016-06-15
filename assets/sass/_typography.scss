@@ -86,11 +86,19 @@ pre { font-size: 1em; }
 
 .text-col-2 {
   column-count: 2;
-  column-gap: $grid-gutter-width;
+  column-gap: $grid-gutter-width*3;
 
   p {
     margin: 0;
     margin-bottom: 1em * $gr;
+  }
+
+  img {
+    display: inline-block;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    vertical-align: middle;
   }
 
   @media screen and (max-width: $screen-xs-max) {
