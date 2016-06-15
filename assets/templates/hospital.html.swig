@@ -75,12 +75,18 @@
       <img src="/build/img/map.jpg" class="img-responsive img-full">
     </div>
     <div class="col-sm-6">
-      {% for hospital in hospitals %}
-        {% include '../components/molecules/hospital-item.html.swig' with {
-          content: hospital.data.fields,
-          nothumb: true
-        } %}
-      {% endfor %}
+      <div class="row">
+        {% for hospital in hospitals %}
+          <div class="col-sm-4">
+            {% include '../components/molecules/hospital-teaser.html.swig' with {content: hospital.data.fields} %}
+          </div>
+          {% if loop.index % 3 == 0 %}
+            </div><div class="row">
+          {% endif %}
+        {% endfor %}
+      </div>
     </div>
   </div>
+
+  <div class="spacer spacer-sm"></div>
 {% endblock %}

@@ -42,14 +42,18 @@ contentful:
     <img src="/build/img/map.jpg" class="img-responsive img-full">
   </div>
   <div class="col-sm-6">
-    {% for hospital in content.hospitals %}
-      {% include '../molecules/hospital-item.html.swig' with {
-        content: hospital.fields,
-        nothumb: true
-      } %}
-    {% endfor %}
+    <div class="row">
+      {% for hospital in content.hospitals %}
+        <div class="col-sm-4">
+          {% include '../molecules/hospital-teaser.html.swig' with {content: hospital.fields} %}
+        </div>
+        {% if loop.index % 3 == 0 %}
+          </div><div class="row">
+        {% endif %}
+      {% endfor %}
+    </div>
   </div>
 </div>
 
-<div class="spacer spacer-xs"></div>
+<div class="spacer spacer-sm"></div>
 
