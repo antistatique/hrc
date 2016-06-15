@@ -25,14 +25,17 @@ contentful:
   current: content.title}
 %}
 
+<h1 class="text-primary">{{content.title}}</h1>
+
+<div class="spacer spacer-sm"></div>
+
 <div class="row">
-  <div class="col-sm-8">
-    <h1 class="text-primary">{{content.title}}</h1>
+  <div class="col-sm-12 text-col-2">
     {{content.body|markdown|raw}}
   </div>
 </div>
 
-<div class="spacer spacer-sm"></div>
+<div class="spacer"></div>
 
 <div class="row">
   <div class="col-sm-4">
