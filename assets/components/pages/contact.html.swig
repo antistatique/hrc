@@ -12,7 +12,7 @@ contentful:
 {% set hospitals = contentful.contentTypes[contentful.content_type] %}
 
 {% include '../molecules/cover.html.swig' with {
-  src: 'http://images.contentful.com/fbqunpc2pjfz/2rhvXzx5FuioMayGw6ycYo/12bc412bf134b1f636b68e58aca22911/CoverHopital.jpg'
+  src: 'https://images.contentful.com/fbqunpc2pjfz/50Ytvq2negWckQMMmOsyEM/c7dc4f14d153c4afe6bbe09b518bb015/Cover-HRC-pagecontact.png'
 } %}
 
 <div class="spacer spacer-sm"></div>
