@@ -1,6 +1,6 @@
 ---
-title: Mode d'emploi
-name: mode-demploi
+title: Séjour à l'hôpital
+name: sejour-a-lhopital
 collection: pages
 styleguide: false
 layout: tocpage.html.swig

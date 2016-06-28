@@ -41,7 +41,7 @@ contentful:
 
 <div class="row row-flex grid">
   <div class="col-sm-4">
-    {% include '../atoms/button-link.html.swig' with {label: "Mode d'emploi", url: 'mode-demploi'} %}
+    {% include '../atoms/button-link.html.swig' with {label: "Séjour à l'hôpital", url: 'sejour-a-lhopital'} %}
   </div>
   <div class="col-sm-4">
     {% include '../atoms/button-link.html.swig' with {label: 'Sécurité', url: 'securite'} %}

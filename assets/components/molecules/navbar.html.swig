@@ -50,8 +50,8 @@ notes: |
             <a href="/patients-et-proches">Patients et proches</a>
           </li>
           <li role="separator" class="divider"></li>
-          <li {% if name == 'mode-demploi' %} class="active"{% endif %}>
-            <a href="/mode-demploi">Mode d'emploi</a>
+          <li {% if name == 'sejour-a-lhopital' %} class="active"{% endif %}>
+            <a href="/sejour-a-lhopital">Séjour à l'hôpital</a>
           </li>
           <li {% if name == 'securite' %} class="active"{% endif %}>
             <a href="/securite">Sécurité</a>
