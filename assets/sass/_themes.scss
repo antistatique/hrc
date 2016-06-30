@@ -18,6 +18,17 @@
   .icon-circle { border-color: $color; }
 }
 
-.theme-primary { @include theme($brand-primary); }
-.theme-success { @include theme($brand-success); }
-.theme-warning { @include theme($brand-warning); }
+.theme-primary {
+  @include theme($brand-primary);
+  .label { @extend .label-primary; }
+}
+
+.theme-success {
+  @include theme($brand-success);
+  .label { @extend .label-success; }
+}
+
+.theme-warning {
+  @include theme($brand-warning);
+  .label { @extend .label-warning; }
+}

@@ -1,0 +1,12 @@
+@charset 'UTF-8';
+
+.news-teaser {
+  margin-bottom: $grid-gutter-width;
+
+  h5 {
+    margin-top: 0.18em;
+    text-transform: uppercase;
+  }
+}
+
+.news-date { text-transform: uppercase; }

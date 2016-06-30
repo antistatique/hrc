@@ -10,6 +10,7 @@
 @import 'layout';
 
 // atoms:
+@import 'atoms/label';
 @import 'atoms/shadow-separator';
 @import 'atoms/iconed-item';
 @import 'atoms/image';
@@ -21,6 +22,7 @@
 @import 'atoms/button';
 
 // molecules:
+@import 'molecules/news-teaser';
 @import 'molecules/tocnav';
 @import 'molecules/hospital-item';
 @import 'molecules/map';
