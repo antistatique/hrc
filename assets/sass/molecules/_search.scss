@@ -22,3 +22,12 @@
     font-size: 1em;
   }
 }
+
+.well .search {
+  .form-control,
+  .btn {
+    height: 55px;
+    padding: 0 1em;
+  }
+  .form-control { font-size: 0.8em; }
+}

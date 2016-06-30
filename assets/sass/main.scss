@@ -10,6 +10,7 @@
 @import 'layout';
 
 // atoms:
+@import 'atoms/dropdown';
 @import 'atoms/label';
 @import 'atoms/shadow-separator';
 @import 'atoms/iconed-item';
@@ -37,6 +38,7 @@
 @import 'molecules/search';
 
 // organisms:
+@import 'organisms/homepage-consultation';
 @import 'organisms/homepage-jobs';
 @import 'organisms/footer';
 @import 'organisms/header';
