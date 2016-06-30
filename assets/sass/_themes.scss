@@ -21,14 +21,17 @@
 .theme-primary {
   @include theme($brand-primary);
   .label { @extend .label-primary; }
+  .btn { @extend .btn-primary; }
 }
 
 .theme-success {
   @include theme($brand-success);
   .label { @extend .label-success; }
+  .btn { @extend .btn-success; }
 }
 
 .theme-warning {
   @include theme($brand-warning);
   .label { @extend .label-warning; }
+  .btn { @extend .btn-warning; }
 }

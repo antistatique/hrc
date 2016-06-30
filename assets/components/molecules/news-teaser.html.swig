@@ -10,7 +10,7 @@ notes: |
 <div class="news-teaser theme-primary">
   <div class="row">
     <div class="col-xs-2 text-right">
-      {% include '../atoms/label.html.swig' with {'label': 'Santé'} %}
+      <a href="#" class="btn btn-default">Santé</a>
     </div>
     <div class="col-xs-10">
       <h5>Lorem ipsum dolor sit amet</h5>
