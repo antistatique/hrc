@@ -22,6 +22,7 @@
 @import 'atoms/button';
 
 // molecules:
+@import 'molecules/job-teaser';
 @import 'molecules/news-teaser';
 @import 'molecules/tocnav';
 @import 'molecules/hospital-item';
@@ -36,6 +37,7 @@
 @import 'molecules/search';
 
 // organisms:
+@import 'organisms/homepage-jobs';
 @import 'organisms/footer';
 @import 'organisms/header';
 

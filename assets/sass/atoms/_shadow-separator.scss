@@ -37,12 +37,12 @@ hr.shadow-separator {
   }
 
   &.shadow-separator-right:after {
-    right: 10px;
+    right: -8px;
     box-shadow: inset 12px 0 0 0 $white;
   }
 
   &.shadow-separator-left:before {
-    left: 10px;
+    left: -8px;
     box-shadow: inset -12px 0 0 0 $white;
   }
 
