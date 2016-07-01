@@ -48,7 +48,8 @@
   @media screen and (max-width: $screen-xs-max) {
     &.well-up,
     &.well-down,
-    &.well-left {
+    &.well-left,
+    &.well-center {
       margin-top: 0;
       margin-bottom: 0;
       margin-left: 0;
