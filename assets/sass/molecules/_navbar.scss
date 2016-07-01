@@ -5,6 +5,8 @@
   font-family: $headings-font-family;
   text-transform: uppercase;
 
+  .chevron { border-color: $brand-primary; }
+
   .dropdown-menu {
     text-transform: none;
     font-size: 0.88em;
