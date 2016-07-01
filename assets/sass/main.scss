@@ -23,6 +23,8 @@
 @import 'atoms/button';
 
 // molecules:
+@import 'molecules/press-teaser';
+@import 'molecules/pagination';
 @import 'molecules/job-teaser';
 @import 'molecules/news-teaser';
 @import 'molecules/tocnav';
@@ -38,6 +40,7 @@
 @import 'molecules/search';
 
 // organisms:
+@import 'organisms/press-releases';
 @import 'organisms/homepage-consultation';
 @import 'organisms/homepage-jobs';
 @import 'organisms/footer';
