@@ -50,6 +50,8 @@ contentful:
   </div>
 </div>
 
+<div class="spacer spacer-sm"></div>
+
 <img src="/build/img/rennaz-demo-04.png" alt="rennaz" class="img-responsive img-full">
 <div class="row">
   <div class="col-sm-10 col-sm-offset-1">
@@ -64,8 +66,8 @@ contentful:
 </div>
 <img src="/build/img/rennaz-demo-05.png" alt="rennaz" class="img-responsive img-full">
 
+<div class="spacer spacer-md"></div>
 
-<div class="spacer spacer-sm"></div>
 <h2 class="text-primary">
   Les sites actuels
 </h2>
