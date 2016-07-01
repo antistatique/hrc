@@ -1,1 +1,17 @@
 @charset 'UTF-8';
+
+.homepage-consultation {
+  @media screen and (max-width: $screen-xs-max) {
+    .search { margin-bottom: 1em; }
+
+    .dropdown .btn {
+      width: 100%;
+      text-align: left;
+
+      .chevron-wrapper {
+        float: right;
+        text-align: center;
+      }
+    }
+  }
+}
