@@ -7,7 +7,11 @@ var swig          = require('swig'),
 module.exports = function() {
 
   swig.setFilter('markdown', function (string) {
-    return marked(string);
+    if (typeof string === 'string') {
+      return marked(string);
+    } else {
+      return string;
+    }
   });
 
   swig.setFilter('slug', function (path) {
