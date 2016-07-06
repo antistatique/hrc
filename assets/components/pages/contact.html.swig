@@ -35,11 +35,14 @@ contentful:
     <p>
       <strong>Valérie Burnier</strong><br>
       Coordinatrice<br>
-      <a href="mailto:valerie.burnier@hopitalrivierachablais.ch">valerie.burnier@hopitalrivierachablais.ch</a><br>
       <br>
       <strong>Catherine Quentin</strong><br>
       Coordinatrice<br>
-      <a href="mailto:catherine.quentin@hopitalrivierachablais.ch">catherine.quentin@hopitalrivierachablais.ch</a>
+      <br>
+      <p>
+        Pour contacter l'unité :
+      </p>
+      <a href="mailto:relationspatients@hopitalrivierachablais.ch">relationspatients@hopitalrivierachablais.ch</a>
     </p>
 
     <h3>Communication</h3>
@@ -49,7 +52,11 @@ contentful:
       <br>
       <strong>Marco Danesi</strong><br>
       T. <a href="tel:0041219234846">+41 21 923 48 46</a><br>
-      <a href="mailto:communication@hopitalrivierachablais.ch">communication@hopitalrivierachablais.ch</a>
+      <br>
+      <p>
+        Pour contacter le département communication :
+      </p>
+      <a href="mailto:relationspatients@hopitalrivierachablais.ch">relationspatients@hopitalrivierachablais.ch</a>
     </p>
 
     <div class="spacer spacer-md"></div>
