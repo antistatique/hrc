@@ -43,6 +43,7 @@ contentful:
         Pour contacter l'unité :
       </p>
       <a href="mailto:relationspatients@hopitalrivierachablais.ch">relationspatients@hopitalrivierachablais.ch</a>
+      <br><br>
     </p>
 
     <h3>Communication</h3>
@@ -56,7 +57,7 @@ contentful:
       <p>
         Pour contacter le département communication :
       </p>
-      <a href="mailto:relationspatients@hopitalrivierachablais.ch">relationspatients@hopitalrivierachablais.ch</a>
+      <a href="mailto:communication@hopitalrivierachablais.ch">communication@hopitalrivierachablais.ch</a>
     </p>
 
     <div class="spacer spacer-md"></div>
