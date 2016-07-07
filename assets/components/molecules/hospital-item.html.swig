@@ -36,12 +36,14 @@ notes: |
             heading: 'Horaires des visites',
             desc: content.visitingHours
           } %}
-          {% include '../atoms/iconed-item.html.swig' with {
-            theme: 'warning',
-            icon: 'cross',
-            heading: 'Urgence 24h/24',
-            desc: content.urgence
-          } %}
+          {% if content.urgence %}
+            {% include '../atoms/iconed-item.html.swig' with {
+              theme: 'warning',
+              icon: 'cross',
+              heading: 'Urgence 24h/24',
+              desc: content.urgence
+            } %}
+          {% endif %}
         </div>
       </div>
     </div>

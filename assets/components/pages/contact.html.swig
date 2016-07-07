@@ -52,10 +52,9 @@ contentful:
       <strong>Patricia Claivaz</strong>, responsable<br>
       <br>
       <strong>Marco Danesi</strong><br>
-      T. <a href="tel:0041219234846">+41 21 923 48 46</a><br>
       <br>
       <p>
-        Pour contacter le département communication :
+        Pour contacter l'unité communication :
       </p>
       <a href="mailto:communication@hopitalrivierachablais.ch">communication@hopitalrivierachablais.ch</a>
     </p>
