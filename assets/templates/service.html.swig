@@ -18,34 +18,39 @@
     current: content.title}
   %}
 
-  <h1 class="text-primary">{{content.title}}</h1>
-  <div class="spacer spacer-xs"></div>
-  <div class="text-col-2 theme-primary">
-    {{content.body|markdown|raw}}
-  </div>
-
-  {% if content.prestation.length > 5 %}
-    <div class="spacer spacer-sm"></div>
-    <hr class="shadow-separator">
-    <div class="spacer spacer-sm"></div>
-
-    <div class="text-col-2 theme-primary">
-      {{content.prestation|markdown|raw}}
-    </div>
-  {% endif %}
-
-  <div class="spacer spacer-md"></div>
-
   <div class="row">
-    <div class="col-sm-6 col-sm-offset-3">
-      <div class="well well-down well-sm text-center">
-        <h4>Direction médico-soignante</h4>
+    <div class="col-sm-4">
+      <div class="spacer spacer-sm"></div>
+      <div class="tocnav hidden-xs">
+        <ul class="list-unstyled" id="tocnav-list"></ul>
       </div>
     </div>
-  </div>
+    <div class="col-sm-8 tocnav-content" id="tocnav-content">
 
-  <div class="row">
-    <div class="col-sm-10 col-sm-offset-1">
+      <h1 class="text-primary">{{content.title}}</h1>
+      <div class="spacer spacer-xs"></div>
+      <div class="theme-primary">
+        {{content.body|markdown|raw}}
+      </div>
+
+      {% if content.prestation.length > 5 %}
+        <hr class="shadow-separator">
+
+        <div class="theme-primary">
+          {{content.prestation|markdown|raw}}
+        </div>
+      {% endif %}
+
+      <div class="spacer spacer-md"></div>
+
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-1">
+          <div class="well well-down well-sm text-center">
+            <h4>Direction médico-soignante</h4>
+          </div>
+        </div>
+      </div>
+
       <div class="row row-flex">
         {% for doctor in content.medicalDirection %}
 
@@ -64,12 +69,15 @@
 
         {% endfor %}
       </div>
+
+      <div class="sapcer spacer-sm"></div>
+
+      <div class="theme-primary">
+        {{content.doctorsList|markdown|raw}}
+      </div>
+
     </div>
   </div>
 
-  <div class="sapcer spacer-sm"></div>
-
-  <div class="theme-primary text-col-2">
-    {{content.doctorsList|markdown|raw}}
-  </div>
+  <div class="spacer spacer-sm"></div>
 {% endblock %}
