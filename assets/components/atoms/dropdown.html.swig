@@ -6,7 +6,7 @@ notes: |
   ##### Usage : `dropdown`
 ---
 <div class="dropdown">
-  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Séléctionner une spécialité
     <span class="chevron-wrapper">
       <span class="chevron chevron-down"></span>

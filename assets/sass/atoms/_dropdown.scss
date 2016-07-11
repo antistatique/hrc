@@ -1,6 +1,17 @@
 @charset 'UTF-8';
 
 .dropdown {
+  .well & .btn {
+    display: block;
+    width: 100%;
+    text-align: left;
+
+    .chevron-wrapper {
+      float: right;
+      text-align: center;
+    }
+  }
+
   .btn {
     height: 55px;
     padding-right: 8px;
