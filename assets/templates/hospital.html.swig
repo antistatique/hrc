@@ -53,8 +53,10 @@
           } %}
           {{content.visitingHours|markdown|raw}}
         </div>
-        <div class="col-md-8 text-col-2">
-          {{content.servicesList|markdown|raw}}
+        <div class="col-md-8">
+          <div class="text-col-2">
+            {{content.servicesList|markdown|raw}}
+          </div>
         </div>
       </div>
     </div>
