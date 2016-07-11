@@ -101,6 +101,10 @@ pre { font-size: 1em; }
     vertical-align: middle;
   }
 
+  li {
+    break-inside: avoid-column;
+  }
+
   @media screen and (max-width: $screen-xs-max) {
     column-count: 1;
     column-gap: 0;
