@@ -9,7 +9,7 @@ notes: |
   <div class="col-sm-5">
     <h1 class="text-primary">Annuaire des consultations</h1>
     <p>
-      Les hôpitaux riviera chablais comprennent des services de médecines générales et des services spécialisés. Vous pouvez consulter nos médecins.
+      L'Hôpital Riviera-Chablais offre une riche palette de spécialités médicales. Vous pouvez consulter nos médecins.
     </p>
     <div class="spacer spacer-sm"></div>
     <div class="well">
