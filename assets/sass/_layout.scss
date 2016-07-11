@@ -4,7 +4,7 @@
 
 .row-flex {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 
   &.row-flex-center { align-items: center; }
   &.row-flex-end { align-items: flex-end; }
@@ -19,6 +19,7 @@
 
   @media screen and (max-width: $screen-xs-max) {
     display: block;
+    flex-wrap: wrap;
   }
 }
 
