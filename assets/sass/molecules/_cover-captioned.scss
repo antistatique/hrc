@@ -1,0 +1,38 @@
+@charset 'UTF-8';
+
+.cover {
+  .caption-btn {
+    display: block;
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    width: 2em;
+    height: 2em;
+    background: transparentize($cerulean, 0.3);
+    border: none;
+    font-weight: 700;
+    color: $white;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    @media screen and (max-width: $screen-xs-max) {
+      display: none;
+    }
+  }
+
+  .caption-content {
+    position: absolute;
+    top: 3em;
+    right: 0.5em;
+    max-width: 60%;
+    padding: 1em;
+    background: rgba(255, 255, 255, 0.9);
+    opacity: 0;
+    transition: opacity 0.2s;
+    &.open { opacity: 1; }
+  }
+}
