@@ -24,8 +24,10 @@
   <div class="spacer spacer-sm"></div>
 
   <div class="row theme-primary">
-    <div class="col-sm-12 text-col-2">
-      {{content.body|markdown|raw}}
+    <div class="col-sm-12">
+      <div class="text-col-2">
+        {{content.body|markdown|raw}}
+      </div>
     </div>
   </div>
 
