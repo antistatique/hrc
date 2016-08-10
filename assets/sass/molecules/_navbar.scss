@@ -1,7 +1,7 @@
 @charset 'UTF-8';
 
 .navbar {
-  font-size: 1.125em;
+  font-size: 1em;
   font-family: $headings-font-family;
   text-transform: uppercase;
 
@@ -30,4 +30,9 @@
 
 .navbar-toggle {
   margin-right: 0;
+}
+
+.navbar-collapse {
+  position: relative;
+  padding-right: 80px;
 }
