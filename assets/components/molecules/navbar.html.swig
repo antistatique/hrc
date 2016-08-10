@@ -70,8 +70,9 @@ notes: |
       <li {% if name == 'contact' %} class="active"{% endif %}>
         <a href="/contact">Contact</a>
       </li>
-
+      {% if styleguide %}
         {% include '../atoms/search-field.html.swig' %}
+      {% endif %}
     </ul>
   </div>
 </nav>
