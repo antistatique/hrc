@@ -70,6 +70,9 @@ notes: |
       <li {% if name == 'contact' %} class="active"{% endif %}>
         <a href="/contact">Contact</a>
       </li>
+      {% if styleguide %}
+        <li>bisou</li>
+      {% endif %}
     </ul>
   </div>
 </nav>
