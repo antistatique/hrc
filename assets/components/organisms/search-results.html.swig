@@ -7,7 +7,7 @@ notes: |
 ---
 <div class="container">
   <div class="row">
-    <div class="col-sm-8 col-sm-offset-2 theme-primary">
+    <div class="col-sm-6 col-sm-offset-3 theme-primary">
       <h1>Recherche <strong>Toxicologie</strong></h1>
       <h4>12 résultats</h4>
 
