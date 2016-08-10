@@ -35,4 +35,8 @@
 .navbar-collapse {
   position: relative;
   padding-right: 80px;
+
+  @media screen and (max-width: $screen-xs-max) {
+    padding-right: 1em;
+  }
 }

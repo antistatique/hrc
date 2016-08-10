@@ -15,7 +15,7 @@ notes: |
     </button>
   </div>
 
-  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+  <div class="collapse navbar-collapse in" id="bs-example-navbar-collapse-1">
     <ul class="nav navbar-nav navbar-right">
       <li{% if name == 'homepage' %} class="active"{% endif %}><a href="/">Accueil</a></li>
       <li class="dropdown">

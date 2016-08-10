@@ -67,10 +67,40 @@
       }
     }
   }
+
+  @media screen and (max-width: $screen-xs-max) {
+    width: 100%;
+    border-color: $atlantis;
+
+    .btn[type='submit'] { display: block; }
+    .btn[type='button'] { display: none; }
+
+    .form-control {
+      padding-left: 0.75em;
+      padding-right: 0.75em;
+    }
+
+    .input-group-btn {
+      width: 1%;
+      transition: none;
+
+      .btn {
+        /* stylelint-disable declaration-no-important */
+        /* Bootstrap related */
+        border-radius: 0 50px 50px 0 !important;
+        /* stylelint-enable declaration-no-important */
+      }
+    }
+  }
 }
 
 .navbar .search-field {
   position: absolute;
   top: 0.2em;
   right: 0;
+
+  @media screen and (max-width: $screen-xs-max) {
+    position: static;
+    margin-top: 0.2em;
+  }
 }
