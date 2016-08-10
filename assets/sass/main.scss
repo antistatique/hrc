@@ -24,6 +24,7 @@
 @import 'atoms/button';
 
 // molecules:
+@import 'molecules/result-teaser';
 @import 'molecules/cover-captioned';
 @import 'molecules/consultation-teaser';
 @import 'molecules/press-teaser';
@@ -43,6 +44,7 @@
 @import 'molecules/search';
 
 // organisms:
+@import 'organisms/search-results';
 @import 'organisms/consultations';
 @import 'organisms/press-releases';
 @import 'organisms/homepage-consultation';
