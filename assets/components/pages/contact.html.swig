@@ -11,18 +11,11 @@ contentful:
 ---
 {% set hospitals = contentful.contentTypes[contentful.content_type] %}
 
-{% include '../molecules/cover.html.swig' with {
-  src: 'https://images.contentful.com/fbqunpc2pjfz/50Ytvq2negWckQMMmOsyEM/c7dc4f14d153c4afe6bbe09b518bb015/Cover-HRC-pagecontact.png'
-} %}
+{% include '../molecules/cover.html.swig' %}
 
 <div class="spacer spacer-sm"></div>
 
-{% include '../molecules/breadcrumb.html.swig' with {
-  links: [
-    {"label": "Accueil", "url": "/"},
-  ],
-  current: 'contact'}
-%}
+{% include '../molecules/breadcrumb.html.swig' %}
 
 <div class="row theme-primary">
   <div class="col-sm-6 col-sm-offset-3">

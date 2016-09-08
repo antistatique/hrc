@@ -13,17 +13,17 @@ notes: |
     </span>
   </button>
   <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-    <li><a href="/anesthesiologie">Anesthésiologie</a></li>
-    <li><a href="/chirurgie">Chirurgie</a></li>
-    <li><a href="/geriatrie-et-readaptation">Gériatrie et réadaptation</a></li>
-    <li><a href="/gynecologie-et-obstetrique">Gynécologie et obstétrique</a></li>
-    <li><a href="/imagerie-medicale">Imagerie médicale</a></li>
-    <li><a href="/medecine-interne-generale">Médecine interne générale</a></li>
-    <li><a href="/orthopedie-et-traumatologie">Orthopédie et traumatologie</a></li>
-    <li><a href="/pediatrie">Pédiatrie</a></li>
-    <li><a href="/physiotherapie-et-ergotherapie">Physiothérapie et Ergothérapie</a></li>
-    <li><a href="/service-interdisciplinaire-de-cancerologie">Service interdisciplinaire de cancérologie </a></li>
-    <li><a href="/soins-critiques">Soins critiques</a></li>
-    <li><a href="/urgences">Urgences</a></li>
+    <li><a href="/service">Anesthésiologie</a></li>
+    <li><a href="/service">Chirurgie</a></li>
+    <li><a href="/service">Gériatrie et réadaptation</a></li>
+    <li><a href="/service">Gynécologie et obstétrique</a></li>
+    <li><a href="/service">Imagerie médicale</a></li>
+    <li><a href="/service">Médecine interne générale</a></li>
+    <li><a href="/service">Orthopédie et traumatologie</a></li>
+    <li><a href="/service">Pédiatrie</a></li>
+    <li><a href="/service">Physiothérapie et Ergothérapie</a></li>
+    <li><a href="/service">Service interdisciplinaire de cancérologie </a></li>
+    <li><a href="/service">Soins critiques</a></li>
+    <li><a href="/service">Urgences</a></li>
   </ul>
 </div>

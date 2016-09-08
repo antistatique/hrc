@@ -1,6 +1,6 @@
 ---
-title: Commission d’éthique clinique
-name: commission-dethique-clinique
+title: Page basique
+name: basic-page
 collection: pages
 styleguide: false
 layout: page.html.swig
@@ -18,15 +18,9 @@ contentful:
 
 <div class="spacer spacer-sm"></div>
 
-{% include '../molecules/breadcrumb.html.swig' with {
-  links: [
-    {"label": "Accueil", "url": "/"},
-    {"label": "Patients et proches", "url": "/patients-et-proches"},
-  ],
-  current: content.title}
-%}
+{% include '../molecules/breadcrumb.html.swig' %}
 
-<h1 class="text-primary">{{content.title}}</h1>
+<h1 class="text-primary">{{title}}</h1>
 
 <div class="spacer spacer-sm"></div>
 
@@ -39,4 +33,3 @@ contentful:
 </div>
 
 <div class="spacer"></div>
-

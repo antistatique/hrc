@@ -1,6 +1,6 @@
 ---
-title: Services médicaux
-name: services-medicaux
+title: Contenu et teasers
+name: content-teasers
 collection: pages
 styleguide: false
 layout: page.html.swig
@@ -18,12 +18,9 @@ contentful:
 
 <div class="spacer spacer-sm"></div>
 
-{% include '../molecules/breadcrumb.html.swig' with {
-  links: [{"label": "Accueil", "url": "/"}],
-  current: title}
-%}
+{% include '../molecules/breadcrumb.html.swig' with %}
 
-<h1 class="text-primary">{{content.title}}</h1>
+<h1 class="text-primary">{{title}}</h1>
 
 <div class="spacer spacer-sm"></div>
 
@@ -41,7 +38,7 @@ contentful:
 <div class="row row-flex grid">
   {% for service in content.services %}
     <div class="col-sm-4">
-      {% include '../atoms/button-link.html.swig' with {label: service.fields.title, url: service.fields.title|titleToUrl} %}
+      {% include '../atoms/button-link.html.swig' with {label: service.fields.title, url: 'service'} %}
     </div>
   {% endfor %}
 </div>

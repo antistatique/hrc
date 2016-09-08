@@ -56,9 +56,12 @@
     <li>
       <span class="styleguide-menu-heading">Pages</span>
       <ul>
+        <li>
+          <a target="_blank" href="/">Page d'accueil</a>
+        </li>
         {% for page in collections.pages %}
           <li>
-            <a href="/{{page.name}}">{{page.title}}</a>
+            <a target="_blank" href="/{{page.name}}">{{page.title}}</a>
           </li>
         {% endfor %}
       </ul>

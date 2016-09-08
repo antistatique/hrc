@@ -18,14 +18,9 @@ contentful:
 
 <div class="spacer spacer-sm"></div>
 
-{% include '../molecules/breadcrumb.html.swig' with {
-  links: [
-    {"label": "Accueil", "url": "/"}
-  ],
-  current: content.title}
-%}
+{% include '../molecules/breadcrumb.html.swig' with %}
 
-<h1 class="text-primary">{{content.title}}</h1>
+<h1 class="text-primary">{{title}}</h1>
 
 <div class="spacer spacer-sm"></div>
 

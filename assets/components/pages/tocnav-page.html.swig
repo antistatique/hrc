@@ -1,13 +1,13 @@
 ---
-title: Gouvernance
-name: gouvernance
+title: Page avec navigation interne
+name: tocnav-page
 collection: pages
 styleguide: false
 layout: page.html.swig
 contentful:
   space_id: fbqunpc2pjfz
   content_type: basicPage
-  id: 56wY8edGmAEAuosYIYMcQa
+  id: 1vdGwDnlIM6aKq4ugceUks
 ---
 {% set object = contentful.contentTypes[contentful.content_type]|get(contentful.id) %}
 {% set content = object.data.fields %}
@@ -18,14 +18,7 @@ contentful:
 
 <div class="spacer spacer-sm"></div>
 
-{% include '../molecules/breadcrumb.html.swig' with {
-  links: [
-    {"label": "Accueil", "url": "/"},
-    {"label": "L’Hôpital Riviera-Chablais", "url": "/lhopital-riviera-chablais"},
-    {"label": "Qui sommes-nous ?", "url": "/qui-sommes-nous"}
-  ],
-  current: content.title}
-%}
+{% include '../molecules/breadcrumb.html.swig' with %}
 
 <div class="row theme-primary">
   <div class="col-sm-4">
@@ -35,7 +28,7 @@ contentful:
     </div>
   </div>
   <div class="col-sm-8 tocnav-content" id="tocnav-content">
-    <h1 class="text-primary">{{content.title}}</h1>
+    <h1 class="text-primary">{{title}}</h1>
     {{content.body|markdown|raw}}
   </div>
 </div>

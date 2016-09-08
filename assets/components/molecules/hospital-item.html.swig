@@ -18,7 +18,7 @@ notes: |
     {% else %}
     <div class="{% if nothumb %}col-sm-12{% else %}col-sm-8 col-sm-offset-4{% endif %}">
     {% endif %}
-      {% include '../atoms/block-link.html.swig' with {label: content.title, url: content.title|titleToUrl} %}
+      {% include '../atoms/block-link.html.swig' with {label: content.title, url: 'hospital'} %}
       <div class="spacer spacer-xs"></div>
       <div class="row">
         <div class="col-sm-6">

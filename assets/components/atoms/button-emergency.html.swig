@@ -7,7 +7,7 @@ notes: |
   ##### Options :
   - **label** - String
 ---
-<a href="/urgences/" class="btn btn-warning btn-emergency hidden-xs">
+<a href="#" class="btn btn-warning btn-emergency hidden-xs">
   <i class="icon icon-phone"></i>
   {% if label %}{{label}}{% else %}Urgences vitales 144{% endif %}
 </a>
