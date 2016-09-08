@@ -12,15 +12,17 @@ contentful:
 {% set object = contentful.contentTypes[contentful.content_type]|get(contentful.id) %}
 {% set content = object.data.fields %}
 
-{% include '../molecules/cover.html.swig' with {
-  src: 'https://images.contentful.com/fbqunpc2pjfz/1lJacxX2zqAs2GAkUYw6E8/2627d12dc35bdc522684f1be53e1de4c/hrc_coverhp.jpg',
-  emergency: true
-} %}
+<div class="hidden-xs">
+  {% include '../molecules/cover.html.swig' with {
+    src: 'https://images.contentful.com/fbqunpc2pjfz/1lJacxX2zqAs2GAkUYw6E8/2627d12dc35bdc522684f1be53e1de4c/hrc_coverhp.jpg',
+    emergency: true
+  } %}
+</div>
 
-<div class="spacer spacer-sm"></div>
+<div class="spacer spacer-sm hidden-xs"></div>
 
 <div class="row">
-  <div class="col-sm-6">
+  <div class="col-sm-6 hidden-xs">
     <h1 class="text-primary">
       {{content.coverTitle}}
     </h1>
