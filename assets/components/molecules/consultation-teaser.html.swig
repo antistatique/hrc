@@ -6,7 +6,7 @@ notes: |
   ##### Usage : `consultation-teaser`
 ---
 <div class="consultation-teaser">
-  <h3><a href="#">Consultations préopératoires&nbsp;:</a></h3>
+  <h4><a href="#">Consultations préopératoires&nbsp;:</a></h4>
   <p>
     <strong>Rendez-vous</strong> : secrétariat d’anesthésie : 021 977 58 45 (08h30 à 12h00 et de 13h00 à 16h00)
   </p>
