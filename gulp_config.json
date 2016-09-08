@@ -2,7 +2,7 @@
   "app": {
     "env": "dev",
     "basedir": "public",
-    "ghpages": "public"
+    "ghpages": "public/hrc"
   },
   "vendors": {
     "css": [
@@ -45,7 +45,7 @@
   "browsers": ["last 2 versions", "safari 5", "ie 8", "ie 9", "ff 27", "opera 12.1"],
   "metalsmith": {
     "assets": "node_modules/toolbox-utils/styleguide/",
-    "dist": "public/",
+    "dist": "public/hrc/",
     "plugins": {
       "permalinks": {
         "pattern": ":title",

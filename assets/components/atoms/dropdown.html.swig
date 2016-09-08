@@ -13,17 +13,17 @@ notes: |
     </span>
   </button>
   <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-    <li><a href="/service">Anesthésiologie</a></li>
-    <li><a href="/service">Chirurgie</a></li>
-    <li><a href="/service">Gériatrie et réadaptation</a></li>
-    <li><a href="/service">Gynécologie et obstétrique</a></li>
-    <li><a href="/service">Imagerie médicale</a></li>
-    <li><a href="/service">Médecine interne générale</a></li>
-    <li><a href="/service">Orthopédie et traumatologie</a></li>
-    <li><a href="/service">Pédiatrie</a></li>
-    <li><a href="/service">Physiothérapie et Ergothérapie</a></li>
-    <li><a href="/service">Service interdisciplinaire de cancérologie </a></li>
-    <li><a href="/service">Soins critiques</a></li>
-    <li><a href="/service">Urgences</a></li>
+    <li><a href="/hrc/service">Anesthésiologie</a></li>
+    <li><a href="/hrc/service">Chirurgie</a></li>
+    <li><a href="/hrc/service">Gériatrie et réadaptation</a></li>
+    <li><a href="/hrc/service">Gynécologie et obstétrique</a></li>
+    <li><a href="/hrc/service">Imagerie médicale</a></li>
+    <li><a href="/hrc/service">Médecine interne générale</a></li>
+    <li><a href="/hrc/service">Orthopédie et traumatologie</a></li>
+    <li><a href="/hrc/service">Pédiatrie</a></li>
+    <li><a href="/hrc/service">Physiothérapie et Ergothérapie</a></li>
+    <li><a href="/hrc/service">Service interdisciplinaire de cancérologie </a></li>
+    <li><a href="/hrc/service">Soins critiques</a></li>
+    <li><a href="/hrc/service">Urgences</a></li>
   </ul>
 </div>

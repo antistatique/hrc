@@ -8,7 +8,7 @@ notes: |
   - **label** - String
   - **url** - String
 ---
-<a href="/{% if url %}{{url}}{% else %}#{% endif %}" class="block-link">
+<a href="/hrc/{% if url %}{{url}}{% else %}#{% endif %}" class="block-link">
   {% spaceless %}
     {% if label %}
       {{label}}

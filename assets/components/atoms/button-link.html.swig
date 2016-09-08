@@ -10,7 +10,7 @@ notes: |
   - **theme** - String (default `primary`, `succes`, `warning`, ...)
 ---
 {% set chevron = true %}
-<a href="/{% if url %}{{url}}{% else %}#{% endif %}" class="button-link btn btn-lg btn-block btn-{% if theme %}{{theme}}{% else %}primary{% endif %}">
+<a href="/hrc/{% if url %}{{url}}{% else %}#{% endif %}" class="button-link btn btn-lg btn-block btn-{% if theme %}{{theme}}{% else %}primary{% endif %}">
   {% spaceless %}
     {% if label %}
       {{label}}

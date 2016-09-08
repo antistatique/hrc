@@ -71,7 +71,7 @@ module.exports = function() {
             data: metadatas
           }),
           contentful({
-            access_token : contentful_key
+            accessToken : contentful_key
           }),
           layouts(config.metalsmith.plugins.layouts),
           function(files, metalsmith, done){

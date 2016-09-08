@@ -75,11 +75,11 @@
 
 
     {% if styleguide %}
-      <link rel="stylesheet" href="/build/css/styleguide.css">
+      <link rel="stylesheet" href="/hrc/build/css/styleguide.css">
     {% endif %}
 
-    {# <link rel="stylesheet" href="/build/css/vendors.min.css"> #}
-    <link rel="stylesheet" href="/build/css/main.css">
+    {# <link rel="stylesheet" href="/hrc/build/css/vendors.min.css"> #}
+    <link rel="stylesheet" href="/hrc/build/css/main.css">
 
     {# Typekit script #}
     <script>
@@ -108,7 +108,7 @@
       })();</script>
 
     <!--[if lt IE 9]>
-      <script src="/build/js/polyfills.min.js"></script>
+      <script src="/hrc/build/js/polyfills.min.js"></script>
     <![endif]-->
   </head>
   <body>
@@ -137,8 +137,8 @@
       </div>
     {% endif %}
 
-    <script src="/build/js/vendors.min.js"></script>
-    <script src="/build/js/main.js"></script>
+    <script src="/hrc/build/js/vendors.min.js"></script>
+    <script src="/hrc/build/js/main.js"></script>
 
     {% if styleguide %}
       <script>
@@ -150,7 +150,7 @@
           });
         }(jQuery));
       </script>
-      <script src="/build/js/styleguide.min.js"></script>
+      <script src="/hrc/build/js/styleguide.min.js"></script>
     {% endif %}
 
     {% block javascripts %}{% endblock %}

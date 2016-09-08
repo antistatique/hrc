@@ -44,7 +44,7 @@ contentful:
 
 <div class="row">
   <div class="col-sm-4">
-    <img src="/build/img/map.jpg" class="img-responsive img-full">
+    <img src="/hrc/build/img/map.jpg" class="img-responsive img-full">
   </div>
   <div class="col-sm-6">
     <div class="row">
