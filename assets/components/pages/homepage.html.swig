@@ -71,3 +71,26 @@ contentful:
     } %}
   </div>
 </div>
+
+<div class="spacer spacer-md"></div>
+{% include '../organisms/homepage-consultation.html.swig' %}
+<div class="spacer"></div>
+<div class="row">
+  <div class="col-sm-7">
+    {% include '../organisms/homepage-jobs.html.swig' %}
+    <div class="spacer"></div>
+  </div>
+  <div class="col-sm-5">
+    <h2 class="text-primary">Actualités</h2>
+    <div class="spacer spacer-sm"></div>
+    {% include '../molecules/news-teaser.html.swig' %}
+    {% include '../molecules/news-teaser.html.swig' %}
+    <div class="spacer spacer-sm"></div>
+    <div class="row">
+      <div class="col-sm-7">
+        {% include '../atoms/button-link.html.swig' with {label: 'Toutes les actualités'} %}
+      </div>
+    </div>
+  </div>
+</div>
+<div class="spacer spacer-md"></div>

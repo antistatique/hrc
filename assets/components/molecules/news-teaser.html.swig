@@ -4,15 +4,13 @@ name: news-teaser
 collection: molecules
 notes: |
   ##### Usage : `news-teaser`
-  ##### Options :
-  - **option** - Type
 ---
 <div class="news-teaser theme-primary">
   <div class="row">
-    <div class="col-xs-2 text-right">
+    <div class="col-xs-3 text-right">
       <a href="#" class="btn btn-default">Santé</a>
     </div>
-    <div class="col-xs-10">
+    <div class="col-xs-9">
       <h5><a href="#">Lorem ipsum dolor sit amet</a></h5>
       <small class="news-date">
         <strong>26 avril 2016</strong>

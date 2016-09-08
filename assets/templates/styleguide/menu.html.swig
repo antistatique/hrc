@@ -6,7 +6,7 @@
   <ul>
 
     <li>
-      <a href="/styleguide/" class="styleguide-menu-heading">Styleguide</a>
+      <a href="/hrc/styleguide/" class="styleguide-menu-heading">Styleguide</a>
     </li>
 
     <li>
@@ -14,40 +14,40 @@
       <ul>
         {% for doc in collections.docs %}
           <li>
-            <a href="/styleguide/{{doc.title|lower}}">{{doc.title}}</a>
+            <a href="/hrc/styleguide/{{doc.title|lower}}">{{doc.title}}</a>
           </li>
         {% endfor %}
       </ul>
     </li>
 
     <li>
-      <a href="/styleguide/atoms/" class="styleguide-menu-heading">Atoms</a>
+      <a href="/hrc/styleguide/atoms/" class="styleguide-menu-heading">Atoms</a>
       <ul>
         {% for atom in collections.atoms %}
           <li>
-            <a href="/styleguide/atoms/#atom{{loop.index}}">{{atom.title}}</a>
+            <a href="/hrc/styleguide/atoms/#atom{{loop.index}}">{{atom.title}}</a>
           </li>
         {% endfor %}
       </ul>
     </li>
 
     <li>
-      <a href="/styleguide/molecules/" class="styleguide-menu-heading">Molecules</a>
+      <a href="/hrc/styleguide/molecules/" class="styleguide-menu-heading">Molecules</a>
       <ul>
         {% for molecule in collections.molecules %}
           <li>
-            <a href="/styleguide/molecules/#molecule{{loop.index}}">{{molecule.title}}</a>
+            <a href="/hrc/styleguide/molecules/#molecule{{loop.index}}">{{molecule.title}}</a>
           </li>
         {% endfor %}
       </ul>
     </li>
 
     <li>
-      <a href="/styleguide/organisms/" class="styleguide-menu-heading">Organisms</a>
+      <a href="/hrc/styleguide/organisms/" class="styleguide-menu-heading">Organisms</a>
       <ul>
         {% for organism in collections.organisms %}
           <li>
-            <a href="/styleguide/organisms/#organism{{loop.index}}">{{organism.title}}</a>
+            <a href="/hrc/styleguide/organisms/#organism{{loop.index}}">{{organism.title}}</a>
           </li>
         {% endfor %}
       </ul>
@@ -57,11 +57,11 @@
       <span class="styleguide-menu-heading">Pages</span>
       <ul>
         <li>
-          <a target="_blank" href="/">Page d'accueil</a>
+          <a target="_blank" href="/hrc/">Page d'accueil</a>
         </li>
         {% for page in collections.pages %}
           <li>
-            <a target="_blank" href="/{{page.name}}">{{page.title}}</a>
+            <a target="_blank" href="/hrc/{{page.name}}">{{page.title}}</a>
           </li>
         {% endfor %}
       </ul>
