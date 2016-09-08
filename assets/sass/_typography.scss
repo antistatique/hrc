@@ -30,6 +30,13 @@ h6,
   &.no-margin { margin: 0; }
 }
 
+h1,
+.h1 {
+  @media screen and (max-width: $screen-md-max) { font-size: $font-size-h1 * 0.9; }
+  @media screen and (max-width: $screen-sm-max) { font-size: $font-size-h1 * 0.8; }
+  @media screen and (max-width: $screen-xs-max) { font-size: $font-size-h1 * 0.5; }
+}
+
 h2,
 .h2 {
   margin: 0.1em 0;
@@ -40,6 +47,17 @@ h2,
     margin-top: 0.1em;
     line-height: 1.1em;
   }
+
+  @media screen and (max-width: $screen-md-max) { font-size: $font-size-h2 * 0.9; }
+  @media screen and (max-width: $screen-sm-max) { font-size: $font-size-h2 * 0.8; }
+  @media screen and (max-width: $screen-xs-max) { font-size: $font-size-h2 * 0.7; }
+}
+
+h3,
+.h3 {
+  @media screen and (max-width: $screen-md-max) { font-size: $font-size-h3 * 0.9; }
+  @media screen and (max-width: $screen-sm-max) { font-size: $font-size-h3 * 0.8; }
+  @media screen and (max-width: $screen-xs-max) { font-size: $font-size-h3 * 0.7; }
 }
 
 a {
