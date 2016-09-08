@@ -3,7 +3,11 @@
 header {
   margin-bottom: $grid-gutter-width;
 
-  .nav a {
+  .list-inline {
+    padding-top: 1em;
+  }
+
+  .list-inline a {
     color: $blue-zodiac;
 
     &:hover,

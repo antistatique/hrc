@@ -64,9 +64,12 @@ notes: |
           </li>
         </ul>
       </li>
-      {# <li class="visible-xs{% if name == 'emplois' %} active{% endif %}">
-        <a href="/hrc/emplois">Emplois</a>
-      </li> #}
+
+      <li class="visible-xs"><a href="/hrc/medias">Médias</a></li>
+      <li class="visible-xs"><a href="/hrc/emplois">Emplois</a></li>
+      <li class="visible-xs"><a href="/hrc/basic-page">Fournisseurs</a></li>
+      <li class="visible-xs"><a href="/hrc/news">Actualités</a></li>
+
       <li>
         <a href="/hrc/contact">Contact</a>
       </li>
