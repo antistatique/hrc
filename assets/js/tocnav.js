@@ -5,6 +5,11 @@ const wikiNavInit = ($) => {
     const $container = $('#tocnav-content'),
           $list = $('#tocnav-list');
 
+    new $.Zebra_Pin($('#tocnav'), {
+      top_spacing: 15,
+      contain: true
+    });
+
     if ($(window).width() > 767) {
 
       $container.find('h1, h2, h3, h4, h5, h6').each(function(i) {

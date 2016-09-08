@@ -20,10 +20,10 @@ contentful:
 
 {% include '../molecules/breadcrumb.html.swig' with %}
 
-<div class="row theme-primary">
+<div class="row row-flex theme-primary">
   <div class="col-sm-4">
     <div class="spacer spacer-sm"></div>
-    <div class="tocnav hidden-xs">
+    <div class="tocnav hidden-xs" id="tocnav">
       <ul class="list-unstyled" id="tocnav-list"></ul>
     </div>
   </div>

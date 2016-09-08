@@ -21,7 +21,8 @@
       "node_modules/bootstrap-sass/assets/javascripts/bootstrap/popover.js",
       "node_modules/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js",
       "node_modules/bootstrap-sass/assets/javascripts/bootstrap/tab.js",
-      "node_modules/bootstrap-sass/assets/javascripts/bootstrap/transition.js"
+      "node_modules/bootstrap-sass/assets/javascripts/bootstrap/transition.js",
+      "node_modules/zebra_pin/public/javascript/zebra_pin.js"
     ],
     "fonts": [
       "node_modules/bootstrap-sass/assets/fonts/bootstrap/*",

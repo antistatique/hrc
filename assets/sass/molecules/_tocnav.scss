@@ -5,6 +5,11 @@
   background: $brand-primary;
   font-weight: 400;
 
+  &.Zebra_Pin {
+    max-width: 32%;
+    max-width: calc(33.33333% - 1em);
+  }
+
   ul li {
     padding-top: 0.2em;
     padding-bottom: 0.2em;
