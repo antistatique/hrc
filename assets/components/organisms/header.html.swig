@@ -22,7 +22,7 @@ notes: |
           <ul class="list-inline">
             <li><a href="/hrc/medias">Médias</a></li>
             <li><a href="/hrc/emplois">Emplois</a></li>
-            <li><a href="/hrc/basic-page">Fournisseurs</a></li>
+            <li><a href="/hrc/fournisseurs">Fournisseurs</a></li>
             <li><a href="/hrc/news">Actualités</a></li>
           </ul>
         </div>
