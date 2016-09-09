@@ -20,8 +20,6 @@ notes: |
       {% include '../molecules/press-teaser.html.swig' %}
       {% include '../molecules/press-teaser.html.swig' %}
       {% include '../molecules/press-teaser.html.swig' %}
-
-      {% include '../molecules/pagination.html.swig' %}
     </div>
 
     <div class="col-sm-4">
