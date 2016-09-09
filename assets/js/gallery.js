@@ -19,7 +19,7 @@ const gallery = ($) => {
     });
 
     // Define click event on gallery item
-    $('a').click(function(event){
+    $('#gallery a').click(function(event){
       // Prevent location change
       event.preventDefault();
       // Define object and gallery options
