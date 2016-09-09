@@ -11,7 +11,7 @@ notes: |
       <a href="#" class="btn btn-default">Santé</a>
     </div>
     <div class="col-xs-9">
-      <h5><a href="#">Lorem ipsum dolor sit amet</a></h5>
+      <h5><a href="/hrc/post">Lorem ipsum dolor sit amet</a></h5>
       <small class="news-date">
         <strong>26 avril 2016</strong>
       </small>

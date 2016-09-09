@@ -4,13 +4,7 @@ name: fournisseurs
 collection: pages
 styleguide: false
 layout: page.html.swig
-contentful:
-  space_id: fbqunpc2pjfz
-  content_type: hospital
-  id: 5ZKEZv4AZqUKCSA0EoIgmo
 ---
-{% set hospitals = contentful.contentTypes[contentful.content_type] %}
-
 {% include '../molecules/cover.html.swig' %}
 
 <div class="spacer spacer-sm"></div>
@@ -19,7 +13,7 @@ contentful:
 
 <div class="row theme-primary">
   <div class="col-sm-6 col-sm-offset-3">
-    <h1 class="text-primary">Fournisseurs</h1>
+    <h1 class="text-primary">{{title}}</h1>
 
     <div class="spacer spacer-sm"></div>
 

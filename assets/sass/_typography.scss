@@ -71,7 +71,7 @@ p {
 
 pre { font-size: 1em; }
 
-.content ul {
+.content ul:not(.pagination) {
   padding-left: 1em;
 
   li {
