@@ -26,6 +26,20 @@
       color: $blue-zodiac;
     }
   }
+
+  @media screen and (max-width: $screen-md-max) {
+    padding-top: 0.6em;
+
+    li a {
+      padding: 0.7em 0.6em;
+      font-size: 0.9em;
+    }
+  }
+
+  @media screen and (max-width: $screen-sm-max) {
+    padding-top: 0;
+    li a { font-size: 1em; }
+  }
 }
 
 .navbar-toggle {
@@ -34,7 +48,6 @@
 
 .navbar-collapse {
   position: relative;
-  padding-right: 80px;
 
   @media screen and (max-width: $screen-xs-max) {
     padding-right: 1em;
