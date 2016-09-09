@@ -15,9 +15,11 @@ $ npm install
 $ gulp serve
 ```
 
-## Get build
+## Release and deploy
 
-Go to [hrc.alwaysdata.net/archive.zip](http://hrc.alwaysdata.net/archive.zip)
+1. Create a new git-flow release
+2. Be sure your last build is for production (`$ gulp build --production`)
+3. `$ gulp deploy`
 
 ## Troubleshooting
 
