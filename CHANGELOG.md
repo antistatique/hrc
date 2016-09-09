@@ -1,3 +1,6 @@
+*1.1.1* (2016-09-09)
+  - add missing post informations and add job detail page (5ab0a7a)
+
 *1.1.0* (2016-09-09)
 
   - #45 add news and post example page (74ff2b1)
