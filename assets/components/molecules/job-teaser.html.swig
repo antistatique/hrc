@@ -6,7 +6,7 @@ notes: |
   ##### Usage : `job-teaser`
 ---
 <div class="hospital-teaser">
-  {% include '../atoms/block-link.html.swig' with {label: '1 Neurologue'} %}
+  {% include '../atoms/block-link.html.swig' with {label: '1 Neurologue', url: 'job/'} %}
   <div class="spacer spacer-xs"></div>
   <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.

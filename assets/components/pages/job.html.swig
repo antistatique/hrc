@@ -1,6 +1,6 @@
 ---
-title: Actualité
-name: post
+title: Emploi
+name: job
 collection: pages
 styleguide: false
 layout: page.html.swig
@@ -11,12 +11,9 @@ layout: page.html.swig
 
 {% include '../molecules/breadcrumb.html.swig' %}
 
-<div class="row">
+<div class="row theme-primary">
   <div class="col-sm-6 col-sm-offset-3">
-    <div class="spacer spacer-sm"></div>
-    <a href="#" class="btn btn-primary btn-sm">Santé</a>
     <h1 class="text-primary">{{title}}</h1>
-    <h5>26 avril 2016</h5>
     <div class="spacer spacer-xs"></div>
     <p class="lead">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Restatis igitur vos; Quid est, quod ab ea absolvi et perfici debeat? Quis enim potest ea, quae probabilia videantur ei, non probare.
