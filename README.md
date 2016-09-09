@@ -18,8 +18,11 @@ $ gulp serve
 ## Release and deploy
 
 1. Create a new git-flow release
-2. Be sure your last build is for production (`$ gulp build --production`)
+2. Be sure to be on `master` branch and to build the project for production (`$ gulp --production`)
 3. `$ gulp deploy`
+
+## Get build
+Simple go the the [build directory](https://github.com/antistatique/hrc/tree/gh-pages/build) of the gh-pages.
 
 ## Troubleshooting
 
