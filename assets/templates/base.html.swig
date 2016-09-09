@@ -78,7 +78,7 @@
       <link rel="stylesheet" href="/hrc/build/css/styleguide.css">
     {% endif %}
 
-    {# <link rel="stylesheet" href="/hrc/build/css/vendors.min.css"> #}
+    <link rel="stylesheet" href="/hrc/build/css/vendors.min.css">
     <link rel="stylesheet" href="/hrc/build/css/main.css">
 
     {# Typekit script #}

@@ -34,17 +34,25 @@ gulp.task('init', function() {
     .pipe(gulp.dest(config.assets + 'sass/'));
 });
 
+/**
+ * Single files
+ */
+gulp.task('single-file', function() {
+  return gulp.src('node_modules/photoswipe/dist/default-skin/default-skin.svg')
+    .pipe(gulp.dest(config.build + 'css/'));
+});
+
 
 /**
  * Task to build assets on production server
  */
 gulp.task('build',['clean'], function() {
-  return gulp.start('vendors', 'styles', 'img', 'scripts', 'icons', 'metalsmith');
+  return gulp.start('vendors', 'single-file', 'styles', 'img', 'scripts', 'icons', 'metalsmith');
 });
 
 /**
  * Default task
  */
 gulp.task('default', ['clean'], function(done){
-  runSequence(['css-vendors', 'js-vendors', 'fonts-vendors', 'polyfills-vendors', 'img', 'icons', 'styles', 'scripts', 'metalsmith-styles', 'metalsmith-scripts'], 'favicons', 'statics', 'metalsmith',  done);
+  runSequence(['css-vendors', 'js-vendors', 'fonts-vendors', 'polyfills-vendors', 'single-file', 'img', 'icons', 'styles', 'scripts', 'metalsmith-styles', 'metalsmith-scripts'], 'favicons', 'statics', 'metalsmith',  done);
 });
