@@ -73,9 +73,7 @@ notes: |
       <li>
         <a href="/hrc/contact">Contact</a>
       </li>
-      {% if styleguide %}
-        {% include '../atoms/search-field.html.swig' %}
-      {% endif %}
+      {% include '../atoms/search-field.html.swig' %}
     </ul>
   </div>
 </nav>
