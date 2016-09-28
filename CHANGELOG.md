@@ -1,3 +1,6 @@
+*1.1.2* (2016-09-28)
+  - add doc page (6ffc377)
+
 *1.1.1* (2016-09-09)
   - add missing post informations and add job detail page (5ab0a7a)
 
