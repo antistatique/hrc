@@ -1,3 +1,2 @@
 User-agent: *
-
-Sitemap: http://hopitalrivierachablais.ch/sitemap.xml
+Disallow: /
